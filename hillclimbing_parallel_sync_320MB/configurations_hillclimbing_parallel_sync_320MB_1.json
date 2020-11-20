@@ -1,0 +1,582 @@
+[{
+  "_id": {
+    "$oid": "5fb4170aaccccd000840a8c0"
+  },
+  "fusionConfig": [
+    [
+      "blur"
+    ],
+    [
+      "flip"
+    ],
+    [
+      "saveS3"
+    ],
+    [
+      "screenshot"
+    ]
+  ],
+  "originalConfig": [
+    {
+      "entry": "handler0",
+      "lambdas": [
+        "screenshot"
+      ]
+    },
+    {
+      "entry": "handler1",
+      "lambdas": [
+        "blur"
+      ]
+    },
+    {
+      "entry": "handler2",
+      "lambdas": [
+        "flip"
+      ]
+    },
+    {
+      "entry": "handler3",
+      "lambdas": [
+        "saveS3"
+      ]
+    }
+  ],
+  "averageDuration": 9879.391304347826,
+  "date": {
+    "$date": "2020-11-17T18:31:38.693Z"
+  }
+},{
+  "_id": {
+    "$oid": "5fb41e1258f6490009f7e46b"
+  },
+  "fusionConfig": [
+    [
+      "blur",
+      "screenshot"
+    ],
+    [
+      "flip"
+    ],
+    [
+      "saveS3"
+    ]
+  ],
+  "originalConfig": [
+    {
+      "entry": "handler0",
+      "lambdas": [
+        "blur",
+        "screenshot"
+      ]
+    },
+    {
+      "entry": "handler1",
+      "lambdas": [
+        "flip"
+      ]
+    },
+    {
+      "entry": "handler2",
+      "lambdas": [
+        "saveS3"
+      ]
+    }
+  ],
+  "averageDuration": 24687.315789473683,
+  "date": {
+    "$date": "2020-11-17T19:01:38.747Z"
+  }
+},{
+  "_id": {
+    "$oid": "5fb4251a17075c00080c9622"
+  },
+  "fusionConfig": [
+    [
+      "blur"
+    ],
+    [
+      "flip"
+    ],
+    [
+      "saveS3"
+    ],
+    [
+      "screenshot"
+    ]
+  ],
+  "originalConfig": [
+    {
+      "entry": "handler0",
+      "lambdas": [
+        "screenshot"
+      ]
+    },
+    {
+      "entry": "handler1",
+      "lambdas": [
+        "blur"
+      ]
+    },
+    {
+      "entry": "handler2",
+      "lambdas": [
+        "flip"
+      ]
+    },
+    {
+      "entry": "handler3",
+      "lambdas": [
+        "saveS3"
+      ]
+    }
+  ],
+  "averageDuration": 9973.869565217392,
+  "date": {
+    "$date": "2020-11-17T19:31:38.762Z"
+  }
+},{
+  "_id": {
+    "$oid": "5fb42c22b9e5000008c9941e"
+  },
+  "fusionConfig": [
+    [
+      "blur"
+    ],
+    [
+      "flip",
+      "screenshot"
+    ],
+    [
+      "saveS3"
+    ]
+  ],
+  "originalConfig": [
+    {
+      "entry": "handler0",
+      "lambdas": [
+        "flip",
+        "screenshot"
+      ]
+    },
+    {
+      "entry": "handler1",
+      "lambdas": [
+        "blur"
+      ]
+    },
+    {
+      "entry": "handler2",
+      "lambdas": [
+        "saveS3"
+      ]
+    }
+  ],
+  "averageDuration": 10950.173913043478,
+  "date": {
+    "$date": "2020-11-17T20:01:38.846Z"
+  }
+},{
+  "_id": {
+    "$oid": "5fb4332a94df400008e98d41"
+  },
+  "fusionConfig": [
+    [
+      "blur"
+    ],
+    [
+      "flip"
+    ],
+    [
+      "saveS3"
+    ],
+    [
+      "screenshot"
+    ]
+  ],
+  "originalConfig": [
+    {
+      "entry": "handler0",
+      "lambdas": [
+        "screenshot"
+      ]
+    },
+    {
+      "entry": "handler1",
+      "lambdas": [
+        "blur"
+      ]
+    },
+    {
+      "entry": "handler2",
+      "lambdas": [
+        "flip"
+      ]
+    },
+    {
+      "entry": "handler3",
+      "lambdas": [
+        "saveS3"
+      ]
+    }
+  ],
+  "averageDuration": 10047.91304347826,
+  "date": {
+    "$date": "2020-11-17T20:31:38.518Z"
+  }
+},{
+  "_id": {
+    "$oid": "5fb43a32d4e3dd0008f9b8ae"
+  },
+  "fusionConfig": [
+    [
+      "blur",
+      "saveS3"
+    ],
+    [
+      "flip"
+    ],
+    [
+      "screenshot"
+    ]
+  ],
+  "originalConfig": [
+    {
+      "entry": "handler0",
+      "lambdas": [
+        "screenshot"
+      ]
+    },
+    {
+      "entry": "handler1",
+      "lambdas": [
+        "flip"
+      ]
+    },
+    {
+      "entry": "handler2",
+      "lambdas": [
+        "blur",
+        "saveS3"
+      ]
+    }
+  ],
+  "averageDuration": 10034.826086956522,
+  "date": {
+    "$date": "2020-11-17T21:01:38.575Z"
+  }
+},{
+  "_id": {
+    "$oid": "5fb4413a70b59d00089a3e6c"
+  },
+  "fusionConfig": [
+    [
+      "blur"
+    ],
+    [
+      "flip"
+    ],
+    [
+      "saveS3"
+    ],
+    [
+      "screenshot"
+    ]
+  ],
+  "originalConfig": [
+    {
+      "entry": "handler0",
+      "lambdas": [
+        "screenshot"
+      ]
+    },
+    {
+      "entry": "handler1",
+      "lambdas": [
+        "flip"
+      ]
+    },
+    {
+      "entry": "handler2",
+      "lambdas": [
+        "saveS3"
+      ]
+    },
+    {
+      "lambdas": [
+        "blur"
+      ],
+      "entry": "handler3"
+    }
+  ],
+  "averageDuration": 10052.347826086956,
+  "date": {
+    "$date": "2020-11-17T21:31:38.810Z"
+  }
+},{
+  "_id": {
+    "$oid": "5fb448422995ad00097d13ac"
+  },
+  "fusionConfig": [
+    [
+      "blur",
+      "saveS3"
+    ],
+    [
+      "flip"
+    ],
+    [
+      "screenshot"
+    ]
+  ],
+  "originalConfig": [
+    {
+      "entry": "handler0",
+      "lambdas": [
+        "screenshot"
+      ]
+    },
+    {
+      "entry": "handler1",
+      "lambdas": [
+        "flip"
+      ]
+    },
+    {
+      "entry": "handler2",
+      "lambdas": [
+        "blur",
+        "saveS3"
+      ]
+    }
+  ],
+  "averageDuration": 9959.304347826086,
+  "date": {
+    "$date": "2020-11-17T22:01:38.294Z"
+  }
+},{
+  "_id": {
+    "$oid": "5fb44f4a539c3900082a6c56"
+  },
+  "fusionConfig": [
+    [
+      "blur",
+      "flip",
+      "saveS3"
+    ],
+    [
+      "screenshot"
+    ]
+  ],
+  "originalConfig": [
+    {
+      "entry": "handler0",
+      "lambdas": [
+        "screenshot"
+      ]
+    },
+    {
+      "entry": "handler1",
+      "lambdas": [
+        "blur",
+        "flip",
+        "saveS3"
+      ]
+    }
+  ],
+  "averageDuration": 9880.434782608696,
+  "date": {
+    "$date": "2020-11-17T22:31:38.436Z"
+  }
+},{
+  "_id": {
+    "$oid": "5fb45652ebfe14000805b7ea"
+  },
+  "fusionConfig": [
+    [
+      "blur"
+    ],
+    [
+      "flip",
+      "saveS3"
+    ],
+    [
+      "screenshot"
+    ]
+  ],
+  "originalConfig": [
+    {
+      "entry": "handler0",
+      "lambdas": [
+        "screenshot"
+      ]
+    },
+    {
+      "entry": "handler1",
+      "lambdas": [
+        "flip",
+        "saveS3"
+      ]
+    },
+    {
+      "lambdas": [
+        "blur"
+      ],
+      "entry": "handler2"
+    }
+  ],
+  "averageDuration": 9663.130434782608,
+  "date": {
+    "$date": "2020-11-17T23:01:38.341Z"
+  }
+},{
+  "_id": {
+    "$oid": "5fb45d5ae62e1c0008fbae48"
+  },
+  "fusionConfig": [
+    [
+      "blur"
+    ],
+    [
+      "flip",
+      "saveS3",
+      "screenshot"
+    ]
+  ],
+  "originalConfig": [
+    {
+      "entry": "handler0",
+      "lambdas": [
+        "flip",
+        "saveS3",
+        "screenshot"
+      ]
+    },
+    {
+      "lambdas": [
+        "blur"
+      ],
+      "entry": "handler1"
+    }
+  ],
+  "averageDuration": 10535.173913043478,
+  "date": {
+    "$date": "2020-11-17T23:31:38.483Z"
+  }
+},{
+  "_id": {
+    "$oid": "5fb464628ab1b1000841807c"
+  },
+  "fusionConfig": [
+    [
+      "blur"
+    ],
+    [
+      "flip",
+      "saveS3"
+    ],
+    [
+      "screenshot"
+    ]
+  ],
+  "originalConfig": [
+    {
+      "entry": "handler0",
+      "lambdas": [
+        "screenshot"
+      ]
+    },
+    {
+      "entry": "handler1",
+      "lambdas": [
+        "flip",
+        "saveS3"
+      ]
+    },
+    {
+      "lambdas": [
+        "blur"
+      ],
+      "entry": "handler2"
+    }
+  ],
+  "averageDuration": 9798.652173913044,
+  "date": {
+    "$date": "2020-11-18T00:01:38.601Z"
+  }
+},{
+  "_id": {
+    "$oid": "5fb46b6ac19f220008784b64"
+  },
+  "fusionConfig": [
+    [
+      "blur",
+      "screenshot"
+    ],
+    [
+      "flip",
+      "saveS3"
+    ]
+  ],
+  "originalConfig": [
+    {
+      "entry": "handler0",
+      "lambdas": [
+        "flip",
+        "saveS3"
+      ]
+    },
+    {
+      "lambdas": [
+        "blur",
+        "screenshot"
+      ],
+      "entry": "handler1"
+    }
+  ],
+  "averageDuration": 19320.125,
+  "date": {
+    "$date": "2020-11-18T00:31:38.497Z"
+  }
+},{
+  "_id": {
+    "$oid": "5fb47272fe6b390008bd8497"
+  },
+  "fusionConfig": [
+    [
+      "blur"
+    ],
+    [
+      "flip",
+      "saveS3"
+    ],
+    [
+      "screenshot"
+    ]
+  ],
+  "originalConfig": [
+    {
+      "entry": "handler0",
+      "lambdas": [
+        "screenshot"
+      ]
+    },
+    {
+      "entry": "handler1",
+      "lambdas": [
+        "flip",
+        "saveS3"
+      ]
+    },
+    {
+      "lambdas": [
+        "blur"
+      ],
+      "entry": "handler2"
+    }
+  ],
+  "averageDuration": 9837.695652173914,
+  "date": {
+    "$date": "2020-11-18T01:01:38.669Z"
+  }
+}]
