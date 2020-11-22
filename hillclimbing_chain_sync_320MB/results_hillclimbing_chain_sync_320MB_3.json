@@ -1,0 +1,4872 @@
+[{
+  "_id": {
+    "$oid": "5fb77e72ee1fbc0009cd3465"
+  },
+  "traceId": "630803f4-5b0c-46a0-9f77-1ea5a682f528",
+  "starttime": {
+    "$date": "2020-11-20T08:27:14.111Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T08:27:36.190Z"
+  },
+  "invocationInformation": {
+    "5f987941-9997-46fe-a133-9f7b4098875a": {
+      "starttime": 1605860850106,
+      "endtime": 1605860856083,
+      "duration": 7351.92,
+      "billedDuration": 7400,
+      "memorySize": 320,
+      "memoryUsed": 161,
+      "coldStart": 254.21,
+      "lambdaName": "handler1"
+    },
+    "ddfb0938-f86b-4300-b2f7-c2351c5d4924": {
+      "starttime": 1605860834111,
+      "endtime": 1605860856190,
+      "duration": 22595.11,
+      "billedDuration": 22600,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": 302.57,
+      "lambdaName": "handler0"
+    },
+    "2eb17a39-b75b-4d47-9f12-8e838119365b": {
+      "starttime": 1605860855760,
+      "endtime": 1605860856046,
+      "duration": 1368,
+      "billedDuration": 1400,
+      "memorySize": 320,
+      "memoryUsed": 88,
+      "coldStart": null,
+      "lambdaName": "handler2"
+    }
+  },
+  "runtime": 22079,
+  "totalMemoryUsed": 569,
+  "totalMemoryAllocated": 960,
+  "totalBilledDuration": 31400,
+  "totalDuration": 31315.03,
+  "lambdasCount": 3,
+  "totalColdStartTime": 556.78
+},{
+  "_id": {
+    "$oid": "5fb77e72ee1fbc0009cd3466"
+  },
+  "traceId": "9738ed5e-757b-454b-a5d1-6d54b6cb0024",
+  "starttime": {
+    "$date": "2020-11-20T08:28:12.884Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T08:28:21.251Z"
+  },
+  "invocationInformation": {
+    "3501fb2f-ded9-4e3b-b608-59948ded8f1e": {
+      "starttime": 1605860896303,
+      "endtime": 1605860901213,
+      "duration": 5043.3,
+      "billedDuration": 5100,
+      "memorySize": 320,
+      "memoryUsed": 204,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "a04d74c5-1211-412e-b599-20980a4b8188": {
+      "starttime": 1605860892884,
+      "endtime": 1605860901251,
+      "duration": 8573.41,
+      "billedDuration": 8600,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    },
+    "029b317d-9edc-409b-b64b-540b4a517efe": {
+      "starttime": 1605860901073,
+      "endtime": 1605860901208,
+      "duration": 290,
+      "billedDuration": 300,
+      "memorySize": 320,
+      "memoryUsed": 88,
+      "coldStart": null,
+      "lambdaName": "handler2"
+    }
+  },
+  "runtime": 8367,
+  "totalMemoryUsed": 612,
+  "totalMemoryAllocated": 960,
+  "totalBilledDuration": 14000,
+  "totalDuration": 13906.71,
+  "lambdasCount": 3,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb77e72ee1fbc0009cd3467"
+  },
+  "traceId": "16a83b02-53a6-48e1-99c7-84c98af8e1af",
+  "starttime": {
+    "$date": "2020-11-20T08:29:12.677Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T08:29:20.369Z"
+  },
+  "invocationInformation": {
+    "0009aacf-75d1-4c5d-84c6-d089a9f6dced": {
+      "starttime": 1605860955818,
+      "endtime": 1605860960284,
+      "duration": 4497.92,
+      "billedDuration": 4500,
+      "memorySize": 320,
+      "memoryUsed": 242,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "fc620e65-82fd-4375-b1ed-c788e439c2e9": {
+      "starttime": 1605860952677,
+      "endtime": 1605860960369,
+      "duration": 7713.99,
+      "billedDuration": 7800,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    },
+    "cac33b67-e1d7-4f25-a043-5fd70e02c79b": {
+      "starttime": 1605860960202,
+      "endtime": 1605860960280,
+      "duration": 100.49,
+      "billedDuration": 200,
+      "memorySize": 320,
+      "memoryUsed": 90,
+      "coldStart": null,
+      "lambdaName": "handler2"
+    }
+  },
+  "runtime": 7692,
+  "totalMemoryUsed": 652,
+  "totalMemoryAllocated": 960,
+  "totalBilledDuration": 12500,
+  "totalDuration": 12312.4,
+  "lambdasCount": 3,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb77f9eee1fbc0009cd346b"
+  },
+  "traceId": "cc4c14c7-39a4-4bc6-9a1d-a58adefb0a2a",
+  "starttime": {
+    "$date": "2020-11-20T08:30:12.963Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T08:30:20.471Z"
+  },
+  "invocationInformation": {
+    "f78450ce-5c19-4d41-959b-99830d85394b": {
+      "starttime": 1605861016084,
+      "endtime": 1605861020455,
+      "duration": 4410.88,
+      "billedDuration": 4500,
+      "memorySize": 320,
+      "memoryUsed": 251,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "2d8007c4-de79-4713-8e18-3498387fc6fb": {
+      "starttime": 1605861020384,
+      "endtime": 1605861020450,
+      "duration": 87.19,
+      "billedDuration": 100,
+      "memorySize": 320,
+      "memoryUsed": 90,
+      "coldStart": null,
+      "lambdaName": "handler2"
+    },
+    "b6672186-0043-4ee1-92a5-9c10ce63d317": {
+      "starttime": 1605861012963,
+      "endtime": 1605861020471,
+      "duration": 7580.9,
+      "billedDuration": 7600,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7508,
+  "totalMemoryUsed": 661,
+  "totalMemoryAllocated": 960,
+  "totalBilledDuration": 12200,
+  "totalDuration": 12078.97,
+  "lambdasCount": 3,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb77f9eee1fbc0009cd346c"
+  },
+  "traceId": "867ea677-1289-493f-af33-2e080f8e6a5b",
+  "starttime": {
+    "$date": "2020-11-20T08:31:12.674Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T08:31:20.008Z"
+  },
+  "invocationInformation": {
+    "cb6bfa50-2524-4d06-97bf-99033f1ec857": {
+      "starttime": 1605861075726,
+      "endtime": 1605861079931,
+      "duration": 4269.85,
+      "billedDuration": 4300,
+      "memorySize": 320,
+      "memoryUsed": 254,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "bc428824-6fbe-494c-83ee-5ec39afcfa8e": {
+      "starttime": 1605861079860,
+      "endtime": 1605861079928,
+      "duration": 91.55,
+      "billedDuration": 100,
+      "memorySize": 320,
+      "memoryUsed": 90,
+      "coldStart": null,
+      "lambdaName": "handler2"
+    },
+    "735dbec5-9480-4d76-bebd-f557cb921bf0": {
+      "starttime": 1605861072674,
+      "endtime": 1605861080008,
+      "duration": 7361.17,
+      "billedDuration": 7400,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7334,
+  "totalMemoryUsed": 664,
+  "totalMemoryAllocated": 960,
+  "totalBilledDuration": 11800,
+  "totalDuration": 11722.57,
+  "lambdasCount": 3,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb77f9eee1fbc0009cd346d"
+  },
+  "traceId": "282a36ae-6fee-4639-abfb-1e8287d11096",
+  "starttime": {
+    "$date": "2020-11-20T08:32:13.080Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T08:32:20.097Z"
+  },
+  "invocationInformation": {
+    "7f152f89-9888-4e42-8287-c623b841c7fa": {
+      "starttime": 1605861136048,
+      "endtime": 1605861140060,
+      "duration": 4033.5,
+      "billedDuration": 4100,
+      "memorySize": 320,
+      "memoryUsed": 254,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "0e032f85-5b24-4192-9d0b-77aaeceb2801": {
+      "starttime": 1605861139957,
+      "endtime": 1605861140056,
+      "duration": 120.42,
+      "billedDuration": 200,
+      "memorySize": 320,
+      "memoryUsed": 90,
+      "coldStart": null,
+      "lambdaName": "handler2"
+    },
+    "89c1b1c8-d30f-4681-8b3d-7442a9979af0": {
+      "starttime": 1605861133080,
+      "endtime": 1605861140097,
+      "duration": 7142.19,
+      "billedDuration": 7200,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7017,
+  "totalMemoryUsed": 664,
+  "totalMemoryAllocated": 960,
+  "totalBilledDuration": 11500,
+  "totalDuration": 11296.11,
+  "lambdasCount": 3,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb77f9eee1fbc0009cd346e"
+  },
+  "traceId": "da614beb-58eb-4a97-9b46-6d2d9dc43cbd",
+  "starttime": {
+    "$date": "2020-11-20T08:33:12.566Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T08:33:20.337Z"
+  },
+  "invocationInformation": {
+    "b8cdcb5f-7796-4594-98b3-bd92ac45828e": {
+      "starttime": 1605861195685,
+      "endtime": 1605861200261,
+      "duration": 4600.06,
+      "billedDuration": 4700,
+      "memorySize": 320,
+      "memoryUsed": 265,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "5b738378-47ff-4ece-8bd2-4e8b8f0703f6": {
+      "starttime": 1605861200166,
+      "endtime": 1605861200257,
+      "duration": 439.71,
+      "billedDuration": 500,
+      "memorySize": 320,
+      "memoryUsed": 90,
+      "coldStart": null,
+      "lambdaName": "handler2"
+    },
+    "a191ce49-63eb-4df3-8b05-fb3272e9f3d8": {
+      "starttime": 1605861192566,
+      "endtime": 1605861200337,
+      "duration": 7792.58,
+      "billedDuration": 7800,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7771,
+  "totalMemoryUsed": 675,
+  "totalMemoryAllocated": 960,
+  "totalBilledDuration": 13000,
+  "totalDuration": 12832.35,
+  "lambdasCount": 3,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb77f9eee1fbc0009cd346f"
+  },
+  "traceId": "87dcfd41-0886-4fce-bc66-b6159070de37",
+  "starttime": {
+    "$date": "2020-11-20T08:34:12.831Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T08:34:20.289Z"
+  },
+  "invocationInformation": {
+    "34619acf-d466-4d92-84c4-b9b4012ba039": {
+      "starttime": 1605861255911,
+      "endtime": 1605861260247,
+      "duration": 4362.25,
+      "billedDuration": 4400,
+      "memorySize": 320,
+      "memoryUsed": 265,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "4ed0de98-3606-4956-9cb8-6f6f5ab9b4c9": {
+      "starttime": 1605861260160,
+      "endtime": 1605861260243,
+      "duration": 124.96,
+      "billedDuration": 200,
+      "memorySize": 320,
+      "memoryUsed": 90,
+      "coldStart": null,
+      "lambdaName": "handler2"
+    },
+    "13f82a91-b7e7-42d7-b7a5-f9fe79370738": {
+      "starttime": 1605861252831,
+      "endtime": 1605861260289,
+      "duration": 7504.64,
+      "billedDuration": 7600,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7458,
+  "totalMemoryUsed": 675,
+  "totalMemoryAllocated": 960,
+  "totalBilledDuration": 12200,
+  "totalDuration": 11991.85,
+  "lambdasCount": 3,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb780caee1fbc0009cd3478"
+  },
+  "traceId": "35a334b1-b97a-4aeb-998a-795de550f7a1",
+  "starttime": {
+    "$date": "2020-11-20T08:35:12.907Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T08:35:20.309Z"
+  },
+  "invocationInformation": {
+    "b097d409-5473-4c83-969b-615e9c87636c": {
+      "starttime": 1605861316041,
+      "endtime": 1605861320273,
+      "duration": 4255.3,
+      "billedDuration": 4300,
+      "memorySize": 320,
+      "memoryUsed": 268,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "06a395eb-eb2a-4daf-b704-95863c1cc906": {
+      "starttime": 1605861320132,
+      "endtime": 1605861320269,
+      "duration": 158.44,
+      "billedDuration": 200,
+      "memorySize": 320,
+      "memoryUsed": 90,
+      "coldStart": null,
+      "lambdaName": "handler2"
+    },
+    "59406ae0-0050-4252-ba06-2f168a4bfc37": {
+      "starttime": 1605861312907,
+      "endtime": 1605861320309,
+      "duration": 7425.21,
+      "billedDuration": 7500,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7402,
+  "totalMemoryUsed": 678,
+  "totalMemoryAllocated": 960,
+  "totalBilledDuration": 12000,
+  "totalDuration": 11838.95,
+  "lambdasCount": 3,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb780caee1fbc0009cd3479"
+  },
+  "traceId": "e4e58141-6bab-418a-b365-b2d6551ffb8a",
+  "starttime": {
+    "$date": "2020-11-20T08:36:12.620Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T08:36:20.037Z"
+  },
+  "invocationInformation": {
+    "247b669a-93ca-4ad8-b8f1-e16139862eed": {
+      "starttime": 1605861375822,
+      "endtime": 1605861379988,
+      "duration": 4189.32,
+      "billedDuration": 4200,
+      "memorySize": 320,
+      "memoryUsed": 268,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "efba5fbd-4ec0-42b4-93a5-089679654125": {
+      "starttime": 1605861379912,
+      "endtime": 1605861379985,
+      "duration": 104.56,
+      "billedDuration": 200,
+      "memorySize": 320,
+      "memoryUsed": 90,
+      "coldStart": null,
+      "lambdaName": "handler2"
+    },
+    "a3415b45-e904-4275-bf5a-ed67e2964fbb": {
+      "starttime": 1605861372620,
+      "endtime": 1605861380037,
+      "duration": 7454.9,
+      "billedDuration": 7500,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7417,
+  "totalMemoryUsed": 678,
+  "totalMemoryAllocated": 960,
+  "totalBilledDuration": 11900,
+  "totalDuration": 11748.78,
+  "lambdasCount": 3,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb780caee1fbc0009cd347a"
+  },
+  "traceId": "bf858a34-ab00-4fb2-a155-7b5635a04192",
+  "starttime": {
+    "$date": "2020-11-20T08:37:12.965Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T08:37:20.349Z"
+  },
+  "invocationInformation": {
+    "44233735-006b-472b-83c8-5d4671e6edac": {
+      "starttime": 1605861436154,
+      "endtime": 1605861440312,
+      "duration": 4184.91,
+      "billedDuration": 4200,
+      "memorySize": 320,
+      "memoryUsed": 268,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "b70f346b-0548-459e-a678-672aa16d0c67": {
+      "starttime": 1605861440247,
+      "endtime": 1605861440309,
+      "duration": 91.54,
+      "billedDuration": 100,
+      "memorySize": 320,
+      "memoryUsed": 90,
+      "coldStart": null,
+      "lambdaName": "handler2"
+    },
+    "7ad77676-35e0-4489-b359-b55683625abc": {
+      "starttime": 1605861432965,
+      "endtime": 1605861440349,
+      "duration": 7409.33,
+      "billedDuration": 7500,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7384,
+  "totalMemoryUsed": 678,
+  "totalMemoryAllocated": 960,
+  "totalBilledDuration": 11800,
+  "totalDuration": 11685.78,
+  "lambdasCount": 3,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb780caee1fbc0009cd347b"
+  },
+  "traceId": "9ca0847e-e501-4a06-b8cd-684b55412b14",
+  "starttime": {
+    "$date": "2020-11-20T08:38:12.688Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T08:38:20.109Z"
+  },
+  "invocationInformation": {
+    "6c26525f-2b24-424b-ba23-5a979c362e09": {
+      "starttime": 1605861495811,
+      "endtime": 1605861500070,
+      "duration": 4288.53,
+      "billedDuration": 4300,
+      "memorySize": 320,
+      "memoryUsed": 268,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "c2dfa2e0-0b0e-4146-9e40-606aec8b9b6b": {
+      "starttime": 1605861500002,
+      "endtime": 1605861500066,
+      "duration": 91.89,
+      "billedDuration": 100,
+      "memorySize": 320,
+      "memoryUsed": 90,
+      "coldStart": null,
+      "lambdaName": "handler2"
+    },
+    "ce8307bd-ae12-4e50-92e6-07a3faa205ff": {
+      "starttime": 1605861492688,
+      "endtime": 1605861500109,
+      "duration": 7467.17,
+      "billedDuration": 7500,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7421,
+  "totalMemoryUsed": 678,
+  "totalMemoryAllocated": 960,
+  "totalBilledDuration": 11900,
+  "totalDuration": 11847.59,
+  "lambdasCount": 3,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb780caee1fbc0009cd347c"
+  },
+  "traceId": "49e3ee3b-721f-4567-ad03-a8dc4e7851c7",
+  "starttime": {
+    "$date": "2020-11-20T08:39:12.771Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T08:39:20.109Z"
+  },
+  "invocationInformation": {
+    "91345d07-f772-4809-8e40-7def0ab29047": {
+      "starttime": 1605861555885,
+      "endtime": 1605861560067,
+      "duration": 4207.15,
+      "billedDuration": 4300,
+      "memorySize": 320,
+      "memoryUsed": 268,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "ebad7bf9-4374-4fd1-b588-175669990263": {
+      "starttime": 1605861559963,
+      "endtime": 1605861560063,
+      "duration": 123.57,
+      "billedDuration": 200,
+      "memorySize": 320,
+      "memoryUsed": 90,
+      "coldStart": null,
+      "lambdaName": "handler2"
+    },
+    "6cf9fd00-50d8-4638-8fd1-6c1ed9882311": {
+      "starttime": 1605861552771,
+      "endtime": 1605861560109,
+      "duration": 7361.23,
+      "billedDuration": 7400,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7338,
+  "totalMemoryUsed": 678,
+  "totalMemoryAllocated": 960,
+  "totalBilledDuration": 11900,
+  "totalDuration": 11691.95,
+  "lambdasCount": 3,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb781f6ee1fbc0009cd348a"
+  },
+  "traceId": "347ce3b7-3702-42ae-b3ca-8ff4cb781ad6",
+  "starttime": {
+    "$date": "2020-11-20T08:40:12.744Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T08:40:20.129Z"
+  },
+  "invocationInformation": {
+    "8f3d0326-817f-493b-96a3-c556ce2143f8": {
+      "starttime": 1605861612744,
+      "endtime": 1605861620129,
+      "duration": 7411.87,
+      "billedDuration": 7500,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    },
+    "9ad30230-27c0-456f-bd16-7da70a755903": {
+      "starttime": 1605861620006,
+      "endtime": 1605861620097,
+      "duration": 115.44,
+      "billedDuration": 200,
+      "memorySize": 320,
+      "memoryUsed": 90,
+      "coldStart": null,
+      "lambdaName": "handler2"
+    },
+    "d158e5ef-e461-4d84-bac6-5fcdadfc888d": {
+      "starttime": 1605861615863,
+      "endtime": 1605861620101,
+      "duration": 4261.06,
+      "billedDuration": 4300,
+      "memorySize": 320,
+      "memoryUsed": 268,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    }
+  },
+  "runtime": 7385,
+  "totalMemoryUsed": 678,
+  "totalMemoryAllocated": 960,
+  "totalBilledDuration": 12000,
+  "totalDuration": 11788.37,
+  "lambdasCount": 3,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb781f6ee1fbc0009cd348b"
+  },
+  "traceId": "e429e64c-9adf-4f06-9ba7-417f07477e11",
+  "starttime": {
+    "$date": "2020-11-20T08:41:12.981Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T08:41:20.328Z"
+  },
+  "invocationInformation": {
+    "2f1d27a2-9b72-4e7f-8dec-54fac642d19d": {
+      "starttime": 1605861672981,
+      "endtime": 1605861680328,
+      "duration": 7381.4,
+      "billedDuration": 7400,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    },
+    "70fb5b23-721f-4e7e-866a-784f1ad9d100": {
+      "starttime": 1605861680208,
+      "endtime": 1605861680293,
+      "duration": 118.23,
+      "billedDuration": 200,
+      "memorySize": 320,
+      "memoryUsed": 90,
+      "coldStart": null,
+      "lambdaName": "handler2"
+    },
+    "d1d31b9c-b5bf-4b84-b2da-bd9e938fcc29": {
+      "starttime": 1605861676057,
+      "endtime": 1605861680297,
+      "duration": 4260.74,
+      "billedDuration": 4300,
+      "memorySize": 320,
+      "memoryUsed": 268,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    }
+  },
+  "runtime": 7347,
+  "totalMemoryUsed": 678,
+  "totalMemoryAllocated": 960,
+  "totalBilledDuration": 11900,
+  "totalDuration": 11760.37,
+  "lambdasCount": 3,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb781f6ee1fbc0009cd348c"
+  },
+  "traceId": "71474616-ed73-4396-ba0e-9d51288ced60",
+  "starttime": {
+    "$date": "2020-11-20T08:42:12.914Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T08:42:20.449Z"
+  },
+  "invocationInformation": {
+    "f0dde401-3c81-471d-88ad-c3cc0236bca0": {
+      "starttime": 1605861732914,
+      "endtime": 1605861740449,
+      "duration": 7581.54,
+      "billedDuration": 7600,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    },
+    "56135333-7849-4cea-b04e-8ef47093ac4f": {
+      "starttime": 1605861740239,
+      "endtime": 1605861740400,
+      "duration": 194.58,
+      "billedDuration": 200,
+      "memorySize": 320,
+      "memoryUsed": 90,
+      "coldStart": null,
+      "lambdaName": "handler2"
+    },
+    "d63f9b2c-4b2a-439d-a67a-5e3f2f0c4b0d": {
+      "starttime": 1605861736151,
+      "endtime": 1605861740404,
+      "duration": 4278.14,
+      "billedDuration": 4300,
+      "memorySize": 320,
+      "memoryUsed": 268,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    }
+  },
+  "runtime": 7535,
+  "totalMemoryUsed": 678,
+  "totalMemoryAllocated": 960,
+  "totalBilledDuration": 12100,
+  "totalDuration": 12054.26,
+  "lambdasCount": 3,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb781f6ee1fbc0009cd348d"
+  },
+  "traceId": "5124cf39-d9fb-44f8-971c-feaddd933758",
+  "starttime": {
+    "$date": "2020-11-20T08:43:12.869Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T08:43:20.249Z"
+  },
+  "invocationInformation": {
+    "84a6bf1a-8720-48b8-bdc1-88449f5186da": {
+      "starttime": 1605861792869,
+      "endtime": 1605861800249,
+      "duration": 7403.37,
+      "billedDuration": 7500,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    },
+    "bad2342a-f89b-4949-858c-02da64480335": {
+      "starttime": 1605861800136,
+      "endtime": 1605861800216,
+      "duration": 105.9,
+      "billedDuration": 200,
+      "memorySize": 320,
+      "memoryUsed": 90,
+      "coldStart": null,
+      "lambdaName": "handler2"
+    },
+    "2a5912fe-8336-49b9-8509-4a222e208e14": {
+      "starttime": 1605861795997,
+      "endtime": 1605861800220,
+      "duration": 4246.66,
+      "billedDuration": 4300,
+      "memorySize": 320,
+      "memoryUsed": 268,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    }
+  },
+  "runtime": 7380,
+  "totalMemoryUsed": 678,
+  "totalMemoryAllocated": 960,
+  "totalBilledDuration": 12000,
+  "totalDuration": 11755.93,
+  "lambdasCount": 3,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb781f6ee1fbc0009cd348e"
+  },
+  "traceId": "af257595-6980-4342-8ff6-f72c444803d2",
+  "starttime": {
+    "$date": "2020-11-20T08:44:12.669Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T08:44:20.130Z"
+  },
+  "invocationInformation": {
+    "65ce9950-f097-464e-bde9-7867d23021c5": {
+      "starttime": 1605861852669,
+      "endtime": 1605861860130,
+      "duration": 7491.83,
+      "billedDuration": 7500,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    },
+    "efef0649-d9b0-4f86-b5d7-74144665a1e0": {
+      "starttime": 1605861860022,
+      "endtime": 1605861860088,
+      "duration": 87.29,
+      "billedDuration": 100,
+      "memorySize": 320,
+      "memoryUsed": 90,
+      "coldStart": null,
+      "lambdaName": "handler2"
+    },
+    "230f6d9f-b057-437c-9048-5271274cbcb4": {
+      "starttime": 1605861855807,
+      "endtime": 1605861860092,
+      "duration": 4314.21,
+      "billedDuration": 4400,
+      "memorySize": 320,
+      "memoryUsed": 268,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    }
+  },
+  "runtime": 7461,
+  "totalMemoryUsed": 678,
+  "totalMemoryAllocated": 960,
+  "totalBilledDuration": 12000,
+  "totalDuration": 11893.33,
+  "lambdasCount": 3,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb78322ee1fbc0009cd34a1"
+  },
+  "traceId": "b306a925-e2af-4679-aded-a991e31a0e8f",
+  "starttime": {
+    "$date": "2020-11-20T08:45:12.888Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T08:45:20.273Z"
+  },
+  "invocationInformation": {
+    "7b509995-9240-4f71-975c-fcc70e41a4af": {
+      "starttime": 1605861916076,
+      "endtime": 1605861920207,
+      "duration": 4151.59,
+      "billedDuration": 4200,
+      "memorySize": 320,
+      "memoryUsed": 268,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "b5149cb1-df45-4cbb-94fe-2635ecc9f771": {
+      "starttime": 1605861920091,
+      "endtime": 1605861920202,
+      "duration": 139.06,
+      "billedDuration": 200,
+      "memorySize": 320,
+      "memoryUsed": 90,
+      "coldStart": null,
+      "lambdaName": "handler2"
+    },
+    "8f69d2d0-0709-4070-ae51-e172a5875af8": {
+      "starttime": 1605861912888,
+      "endtime": 1605861920273,
+      "duration": 7408.01,
+      "billedDuration": 7500,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7385,
+  "totalMemoryUsed": 678,
+  "totalMemoryAllocated": 960,
+  "totalBilledDuration": 11900,
+  "totalDuration": 11698.66,
+  "lambdasCount": 3,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb78322ee1fbc0009cd34a2"
+  },
+  "traceId": "8e9dda4d-8388-437c-bdd4-b955ba9fb726",
+  "starttime": {
+    "$date": "2020-11-20T08:46:12.710Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T08:46:20.068Z"
+  },
+  "invocationInformation": {
+    "cedde70b-2084-427b-9649-0a2c445b3bea": {
+      "starttime": 1605861975804,
+      "endtime": 1605861980042,
+      "duration": 4274.36,
+      "billedDuration": 4300,
+      "memorySize": 320,
+      "memoryUsed": 268,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "a077db46-7739-4d20-9c48-b80ef077cfb5": {
+      "starttime": 1605861979984,
+      "endtime": 1605861980038,
+      "duration": 77.43,
+      "billedDuration": 100,
+      "memorySize": 320,
+      "memoryUsed": 90,
+      "coldStart": null,
+      "lambdaName": "handler2"
+    },
+    "72f52d32-8f41-412c-aa82-130ad0c2b622": {
+      "starttime": 1605861972710,
+      "endtime": 1605861980068,
+      "duration": 7382.16,
+      "billedDuration": 7400,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7358,
+  "totalMemoryUsed": 678,
+  "totalMemoryAllocated": 960,
+  "totalBilledDuration": 11800,
+  "totalDuration": 11733.95,
+  "lambdasCount": 3,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb78322ee1fbc0009cd34a3"
+  },
+  "traceId": "c9b3604f-50a0-4935-80ea-e9c902e29889",
+  "starttime": {
+    "$date": "2020-11-20T08:47:12.895Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T08:47:20.208Z"
+  },
+  "invocationInformation": {
+    "4fc17755-38a9-4580-89d8-c181248bec67": {
+      "starttime": 1605862036006,
+      "endtime": 1605862040180,
+      "duration": 4196.48,
+      "billedDuration": 4200,
+      "memorySize": 320,
+      "memoryUsed": 268,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "631c29e9-1abb-4b31-a2ed-31cb91966d6d": {
+      "starttime": 1605862040077,
+      "endtime": 1605862040177,
+      "duration": 131.59,
+      "billedDuration": 200,
+      "memorySize": 320,
+      "memoryUsed": 90,
+      "coldStart": null,
+      "lambdaName": "handler2"
+    },
+    "c5d2befe-fd2f-48b4-a88c-748d69c6a66b": {
+      "starttime": 1605862032895,
+      "endtime": 1605862040208,
+      "duration": 7349.36,
+      "billedDuration": 7400,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7313,
+  "totalMemoryUsed": 678,
+  "totalMemoryAllocated": 960,
+  "totalBilledDuration": 11800,
+  "totalDuration": 11677.43,
+  "lambdasCount": 3,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb78322ee1fbc0009cd34a4"
+  },
+  "traceId": "2a5127ea-a735-47d3-99b0-6fe579d68b1d",
+  "starttime": {
+    "$date": "2020-11-20T08:48:12.855Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T08:48:20.248Z"
+  },
+  "invocationInformation": {
+    "eb501630-1be3-4f24-a520-34f4d52975bd": {
+      "starttime": 1605862096031,
+      "endtime": 1605862100221,
+      "duration": 4216.29,
+      "billedDuration": 4300,
+      "memorySize": 320,
+      "memoryUsed": 268,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "132c5555-f4e3-4649-a398-394c9f0d92c6": {
+      "starttime": 1605862100170,
+      "endtime": 1605862100218,
+      "duration": 72.71,
+      "billedDuration": 100,
+      "memorySize": 320,
+      "memoryUsed": 90,
+      "coldStart": null,
+      "lambdaName": "handler2"
+    },
+    "52e4113f-1aca-47e3-9a49-163e48cce13e": {
+      "starttime": 1605862092855,
+      "endtime": 1605862100248,
+      "duration": 7420.32,
+      "billedDuration": 7500,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7393,
+  "totalMemoryUsed": 678,
+  "totalMemoryAllocated": 960,
+  "totalBilledDuration": 11900,
+  "totalDuration": 11709.32,
+  "lambdasCount": 3,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb78322ee1fbc0009cd34a5"
+  },
+  "traceId": "9c218a48-a972-4104-ae02-f7ca045861c0",
+  "starttime": {
+    "$date": "2020-11-20T08:49:12.783Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T08:49:20.273Z"
+  },
+  "invocationInformation": {
+    "5f02fcd8-55e6-45b2-ba63-4462f6d30d76": {
+      "starttime": 1605862156031,
+      "endtime": 1605862160237,
+      "duration": 4231.2,
+      "billedDuration": 4300,
+      "memorySize": 320,
+      "memoryUsed": 268,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "fea9ae02-8662-4996-9e3d-b20aff494f79": {
+      "starttime": 1605862160168,
+      "endtime": 1605862160232,
+      "duration": 88.25,
+      "billedDuration": 100,
+      "memorySize": 320,
+      "memoryUsed": 90,
+      "coldStart": null,
+      "lambdaName": "handler2"
+    },
+    "c07447a7-abbc-41ec-86d4-441029b6e6ba": {
+      "starttime": 1605862152783,
+      "endtime": 1605862160273,
+      "duration": 7534.39,
+      "billedDuration": 7600,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7490,
+  "totalMemoryUsed": 678,
+  "totalMemoryAllocated": 960,
+  "totalBilledDuration": 12000,
+  "totalDuration": 11853.84,
+  "lambdasCount": 3,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb78450de89eb00076df3fe"
+  },
+  "traceId": "8f8b391c-c6dd-4734-a981-3818d1323fc7",
+  "starttime": {
+    "$date": "2020-11-20T08:53:14.107Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T08:53:34.887Z"
+  },
+  "invocationInformation": {
+    "2f2b91e2-80f1-457d-b05a-e5c59a33eed5": {
+      "starttime": 1605862394107,
+      "endtime": 1605862414887,
+      "duration": 21358.81,
+      "billedDuration": 21400,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": 285.67,
+      "lambdaName": "handler0"
+    },
+    "6761b5e1-c219-4598-8a1c-1757984d7173": {
+      "starttime": 1605862409178,
+      "endtime": 1605862414789,
+      "duration": 6911.87,
+      "billedDuration": 7000,
+      "memorySize": 320,
+      "memoryUsed": 168,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    }
+  },
+  "runtime": 20780,
+  "totalMemoryUsed": 488,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 28400,
+  "totalDuration": 28270.68,
+  "lambdasCount": 2,
+  "totalColdStartTime": 285.67
+},{
+  "_id": {
+    "$oid": "5fb78450de89eb00076df3ff"
+  },
+  "traceId": "6f17f9d2-fee3-4277-9382-da03f61484ff",
+  "starttime": {
+    "$date": "2020-11-20T08:54:13.086Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T08:54:20.966Z"
+  },
+  "invocationInformation": {
+    "f63264ce-143e-4e98-97ed-fe78843857dc": {
+      "starttime": 1605862453086,
+      "endtime": 1605862460966,
+      "duration": 8080.72,
+      "billedDuration": 8100,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    },
+    "39018c28-f7fa-43cc-bf55-af8101cb7cab": {
+      "starttime": 1605862456370,
+      "endtime": 1605862460935,
+      "duration": 4599.86,
+      "billedDuration": 4600,
+      "memorySize": 320,
+      "memoryUsed": 216,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    }
+  },
+  "runtime": 7880,
+  "totalMemoryUsed": 536,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 12700,
+  "totalDuration": 12680.58,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb78450de89eb00076df417"
+  },
+  "traceId": "1ee0cef7-764c-412a-90e0-9207afc9b7d1",
+  "starttime": {
+    "$date": "2020-11-20T08:50:12.970Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T08:50:20.949Z"
+  },
+  "invocationInformation": {
+    "89ea48ab-4cd3-4c33-a0a3-13dd4b62ac44": {
+      "starttime": 1605862212970,
+      "endtime": 1605862220949,
+      "duration": 8007.86,
+      "billedDuration": 8100,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    },
+    "b38815ed-3e98-4387-8d96-fddd8976bcb2": {
+      "starttime": 1605862216120,
+      "endtime": 1605862220913,
+      "duration": 4826.53,
+      "billedDuration": 4900,
+      "memorySize": 320,
+      "memoryUsed": 268,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    }
+  },
+  "runtime": 7979,
+  "totalMemoryUsed": 588,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 13000,
+  "totalDuration": 12834.39,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb78450de89eb00076df418"
+  },
+  "traceId": "13f9970b-7ed2-4e83-b11a-2c64fb65cb62",
+  "starttime": {
+    "$date": "2020-11-20T08:51:12.733Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T08:51:20.248Z"
+  },
+  "invocationInformation": {
+    "b6618345-1e5f-4931-8d9d-4bf16aa34c34": {
+      "starttime": 1605862272733,
+      "endtime": 1605862280248,
+      "duration": 7541.61,
+      "billedDuration": 7600,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    },
+    "0b898233-f7b0-4b30-80d6-46393aae0319": {
+      "starttime": 1605862275886,
+      "endtime": 1605862280222,
+      "duration": 4373.36,
+      "billedDuration": 4400,
+      "memorySize": 320,
+      "memoryUsed": 273,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    }
+  },
+  "runtime": 7515,
+  "totalMemoryUsed": 593,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 12000,
+  "totalDuration": 11914.97,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb78450de89eb00076df419"
+  },
+  "traceId": "0b30060f-e72e-4c4e-885e-95e77424621f",
+  "starttime": {
+    "$date": "2020-11-20T08:52:12.878Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T08:52:20.130Z"
+  },
+  "invocationInformation": {
+    "83520643-01c5-43ed-83ac-5eb76e5e1b36": {
+      "starttime": 1605862332878,
+      "endtime": 1605862340130,
+      "duration": 7291.51,
+      "billedDuration": 7300,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    },
+    "18a54de2-0e45-4ce4-bb9a-15d2c0c80fae": {
+      "starttime": 1605862335968,
+      "endtime": 1605862340095,
+      "duration": 4166.94,
+      "billedDuration": 4200,
+      "memorySize": 320,
+      "memoryUsed": 274,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    }
+  },
+  "runtime": 7252,
+  "totalMemoryUsed": 594,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11500,
+  "totalDuration": 11458.45,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb7857bde89eb00076df41c"
+  },
+  "traceId": "bc150af7-c822-4591-8dc1-17504fea922d",
+  "starttime": {
+    "$date": "2020-11-20T08:55:12.682Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T08:55:20.546Z"
+  },
+  "invocationInformation": {
+    "e65d89c6-7f11-444f-a6d3-e73cedafa9f1": {
+      "starttime": 1605862516015,
+      "endtime": 1605862520455,
+      "duration": 4596.55,
+      "billedDuration": 4600,
+      "memorySize": 320,
+      "memoryUsed": 247,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "00b88bec-f6ff-4af4-8e67-d0297caf9ea4": {
+      "starttime": 1605862512682,
+      "endtime": 1605862520546,
+      "duration": 7889.8,
+      "billedDuration": 7900,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7864,
+  "totalMemoryUsed": 567,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 12500,
+  "totalDuration": 12486.35,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb7857bde89eb00076df41d"
+  },
+  "traceId": "e6a60bca-0ca4-475d-9d1d-f3b096341ba5",
+  "starttime": {
+    "$date": "2020-11-20T08:56:12.753Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T08:56:20.207Z"
+  },
+  "invocationInformation": {
+    "e90deb77-7127-4a3e-aae9-7db7ea6d956e": {
+      "starttime": 1605862575837,
+      "endtime": 1605862580180,
+      "duration": 4377.41,
+      "billedDuration": 4400,
+      "memorySize": 320,
+      "memoryUsed": 247,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "e55ca5f9-8c80-4766-b6bb-0090b52f8095": {
+      "starttime": 1605862572753,
+      "endtime": 1605862580207,
+      "duration": 7474.94,
+      "billedDuration": 7500,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7454,
+  "totalMemoryUsed": 567,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11900,
+  "totalDuration": 11852.35,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb7857bde89eb00076df41e"
+  },
+  "traceId": "e9e613b4-727e-446d-9aed-c70498732c69",
+  "starttime": {
+    "$date": "2020-11-20T08:57:12.825Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T08:57:20.169Z"
+  },
+  "invocationInformation": {
+    "ebf1deb9-2342-437e-a3bd-57acacaec58b": {
+      "starttime": 1605862635900,
+      "endtime": 1605862640137,
+      "duration": 4261.23,
+      "billedDuration": 4300,
+      "memorySize": 320,
+      "memoryUsed": 247,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "9aacb0df-385b-4a9f-b5b4-d7758b9dcc46": {
+      "starttime": 1605862632825,
+      "endtime": 1605862640169,
+      "duration": 7366.76,
+      "billedDuration": 7400,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7344,
+  "totalMemoryUsed": 567,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11700,
+  "totalDuration": 11627.99,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb7857bde89eb00076df41f"
+  },
+  "traceId": "5cbb3eae-7b7d-4a01-8c5e-5edafad8873c",
+  "starttime": {
+    "$date": "2020-11-20T08:58:12.849Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T08:58:20.268Z"
+  },
+  "invocationInformation": {
+    "ddfc5afa-be02-4865-95b9-f5b3e01a5823": {
+      "starttime": 1605862695825,
+      "endtime": 1605862700238,
+      "duration": 4433.35,
+      "billedDuration": 4500,
+      "memorySize": 320,
+      "memoryUsed": 247,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "d19a02b9-3336-4ee6-834b-a229ab2349fb": {
+      "starttime": 1605862692849,
+      "endtime": 1605862700268,
+      "duration": 7442.49,
+      "billedDuration": 7500,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7419,
+  "totalMemoryUsed": 567,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 12000,
+  "totalDuration": 11875.84,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb7857bde89eb00076df420"
+  },
+  "traceId": "dc2413de-f2d3-44ba-80d8-d68a7591b3ae",
+  "starttime": {
+    "$date": "2020-11-20T08:59:12.914Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T08:59:20.409Z"
+  },
+  "invocationInformation": {
+    "03553c38-9fc2-4f07-87d7-ec0186b10484": {
+      "starttime": 1605862756015,
+      "endtime": 1605862760368,
+      "duration": 4381.52,
+      "billedDuration": 4400,
+      "memorySize": 320,
+      "memoryUsed": 247,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "98b61fe0-5762-4722-93b7-4a4cfe043269": {
+      "starttime": 1605862752914,
+      "endtime": 1605862760409,
+      "duration": 7579.07,
+      "billedDuration": 7600,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7495,
+  "totalMemoryUsed": 567,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 12000,
+  "totalDuration": 11960.59,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb786a7de89eb00076df442"
+  },
+  "traceId": "7c947c55-fafc-41a6-b998-7580c6148478",
+  "starttime": {
+    "$date": "2020-11-20T09:00:13.003Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:00:20.436Z"
+  },
+  "invocationInformation": {
+    "7efbb67e-c768-4052-baa8-334aedecaf1d": {
+      "starttime": 1605862816130,
+      "endtime": 1605862820399,
+      "duration": 4290.31,
+      "billedDuration": 4300,
+      "memorySize": 320,
+      "memoryUsed": 247,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "6387f94c-99d8-4c64-b3d4-7e4565de5afb": {
+      "starttime": 1605862813003,
+      "endtime": 1605862820436,
+      "duration": 7461.2,
+      "billedDuration": 7500,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7433,
+  "totalMemoryUsed": 567,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11800,
+  "totalDuration": 11751.51,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb786a7de89eb00076df443"
+  },
+  "traceId": "98b589a5-7222-4051-92ee-7e18f76d57fe",
+  "starttime": {
+    "$date": "2020-11-20T09:01:12.602Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:01:19.850Z"
+  },
+  "invocationInformation": {
+    "62e8d409-3c69-4c06-a829-ce4ba07a548b": {
+      "starttime": 1605862875603,
+      "endtime": 1605862879805,
+      "duration": 4233.9,
+      "billedDuration": 4300,
+      "memorySize": 320,
+      "memoryUsed": 247,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "df874f8a-0c73-4914-b4ec-f947c2e4e523": {
+      "starttime": 1605862872602,
+      "endtime": 1605862879850,
+      "duration": 7284.81,
+      "billedDuration": 7300,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7248,
+  "totalMemoryUsed": 567,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11600,
+  "totalDuration": 11518.71,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb786a7de89eb00076df444"
+  },
+  "traceId": "675364f6-36cf-46fc-9d24-aadda4308815",
+  "starttime": {
+    "$date": "2020-11-20T09:02:12.765Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:02:20.291Z"
+  },
+  "invocationInformation": {
+    "1c398d84-103c-4b67-ab1a-4c878d5815c3": {
+      "starttime": 1605862935872,
+      "endtime": 1605862940259,
+      "duration": 4409.82,
+      "billedDuration": 4500,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "b718333c-f311-4e29-9366-e6e4ece0e424": {
+      "starttime": 1605862932765,
+      "endtime": 1605862940291,
+      "duration": 7548.35,
+      "billedDuration": 7600,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7526,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 12100,
+  "totalDuration": 11958.17,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb786a7de89eb00076df445"
+  },
+  "traceId": "e764f7cc-232a-4e47-964b-be83c8858815",
+  "starttime": {
+    "$date": "2020-11-20T09:03:12.822Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:03:20.232Z"
+  },
+  "invocationInformation": {
+    "c4cad36c-b0da-446b-aa14-b97a18e101b5": {
+      "starttime": 1605862995873,
+      "endtime": 1605863000166,
+      "duration": 4319.38,
+      "billedDuration": 4400,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "72477633-f90a-4e49-8e8a-c350f43413af": {
+      "starttime": 1605862992822,
+      "endtime": 1605863000232,
+      "duration": 7454.38,
+      "billedDuration": 7500,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7410,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11900,
+  "totalDuration": 11773.76,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb786a7de89eb00076df446"
+  },
+  "traceId": "d67dcd27-c2c6-4c41-abfa-0434eea23592",
+  "starttime": {
+    "$date": "2020-11-20T09:04:12.656Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:04:20.133Z"
+  },
+  "invocationInformation": {
+    "b1326232-e5d2-4324-8ee7-88f2a8190856": {
+      "starttime": 1605863055772,
+      "endtime": 1605863060099,
+      "duration": 4355.95,
+      "billedDuration": 4400,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "723dffc6-011c-44f9-9fa0-093aaadcd929": {
+      "starttime": 1605863052656,
+      "endtime": 1605863060133,
+      "duration": 7520.44,
+      "billedDuration": 7600,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7477,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 12000,
+  "totalDuration": 11876.39,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb787d4de89eb00076df46d"
+  },
+  "traceId": "05cc90ec-eb8e-404c-bbcd-4e989712ad4d",
+  "starttime": {
+    "$date": "2020-11-20T09:05:12.978Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:05:20.272Z"
+  },
+  "invocationInformation": {
+    "8cf89bb8-eb16-49e8-a13a-7ef23ea0f3e1": {
+      "starttime": 1605863112978,
+      "endtime": 1605863120272,
+      "duration": 7320.19,
+      "billedDuration": 7400,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    },
+    "9056ec6d-2d16-4fbd-ab0c-f99b4374eb31": {
+      "starttime": 1605863116122,
+      "endtime": 1605863120213,
+      "duration": 4127.3,
+      "billedDuration": 4200,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    }
+  },
+  "runtime": 7294,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11600,
+  "totalDuration": 11447.49,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb787d4de89eb00076df46e"
+  },
+  "traceId": "d7f90253-bd02-4e54-aff0-5162e9b83ecc",
+  "starttime": {
+    "$date": "2020-11-20T09:06:12.780Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:06:20.274Z"
+  },
+  "invocationInformation": {
+    "c766ac2d-769c-49c3-a239-9b36bfec81bc": {
+      "starttime": 1605863172780,
+      "endtime": 1605863180274,
+      "duration": 7522.06,
+      "billedDuration": 7600,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    },
+    "84222c8a-c759-4db0-9a41-bd58f203d483": {
+      "starttime": 1605863175902,
+      "endtime": 1605863180227,
+      "duration": 4346.79,
+      "billedDuration": 4400,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    }
+  },
+  "runtime": 7494,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 12000,
+  "totalDuration": 11868.85,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb787d4de89eb00076df46f"
+  },
+  "traceId": "4f2a8204-77ba-41c2-aea8-b4b1950c03d4",
+  "starttime": {
+    "$date": "2020-11-20T09:07:13.011Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:07:20.454Z"
+  },
+  "invocationInformation": {
+    "370f6b20-9f1d-448e-8ab0-fc437a9f363f": {
+      "starttime": 1605863233011,
+      "endtime": 1605863240454,
+      "duration": 7468,
+      "billedDuration": 7500,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    },
+    "af34d56f-f6df-4f84-8fa0-f9c231d3230f": {
+      "starttime": 1605863236199,
+      "endtime": 1605863240416,
+      "duration": 4361.81,
+      "billedDuration": 4400,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    }
+  },
+  "runtime": 7443,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11900,
+  "totalDuration": 11829.81,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb787d4de89eb00076df470"
+  },
+  "traceId": "2e58c4f2-d902-41dc-b11f-cc3cd95a6f96",
+  "starttime": {
+    "$date": "2020-11-20T09:08:12.921Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:08:20.095Z"
+  },
+  "invocationInformation": {
+    "0491ea48-f24d-43f1-a37c-a531e69a2d3e": {
+      "starttime": 1605863292921,
+      "endtime": 1605863300095,
+      "duration": 7194.19,
+      "billedDuration": 7200,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    },
+    "5740bcf1-c9e3-4f0f-a04b-1a62fbe37600": {
+      "starttime": 1605863295970,
+      "endtime": 1605863300052,
+      "duration": 4105.82,
+      "billedDuration": 4200,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    }
+  },
+  "runtime": 7174,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11400,
+  "totalDuration": 11300.01,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb787d4de89eb00076df471"
+  },
+  "traceId": "f779bc71-eb6f-415f-9fab-28faf234cf04",
+  "starttime": {
+    "$date": "2020-11-20T09:09:12.843Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:09:20.416Z"
+  },
+  "invocationInformation": {
+    "2ef87187-ff0b-4999-8acb-6d425a956273": {
+      "starttime": 1605863352843,
+      "endtime": 1605863360416,
+      "duration": 7603.82,
+      "billedDuration": 7700,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    },
+    "74fbb434-40fb-45d6-9610-f44dc1142f56": {
+      "starttime": 1605863356022,
+      "endtime": 1605863360355,
+      "duration": 4361.04,
+      "billedDuration": 4400,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    }
+  },
+  "runtime": 7573,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 12100,
+  "totalDuration": 11964.86,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb788ffde89eb00076df49d"
+  },
+  "traceId": "9bd14cff-3b70-466f-a255-e245ad43ff54",
+  "starttime": {
+    "$date": "2020-11-20T09:10:12.649Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:10:19.836Z"
+  },
+  "invocationInformation": {
+    "c94f1025-b768-4526-ae11-391e7287ff21": {
+      "starttime": 1605863415656,
+      "endtime": 1605863419795,
+      "duration": 4161.02,
+      "billedDuration": 4200,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "660b9d95-f06d-4a59-abb7-c2ba8cd2fe32": {
+      "starttime": 1605863412649,
+      "endtime": 1605863419836,
+      "duration": 7209.82,
+      "billedDuration": 7300,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7187,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11500,
+  "totalDuration": 11370.84,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb788ffde89eb00076df49e"
+  },
+  "traceId": "82f98a7d-d258-4e51-998b-9dd80f37037a",
+  "starttime": {
+    "$date": "2020-11-20T09:11:12.585Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:11:19.957Z"
+  },
+  "invocationInformation": {
+    "2cbe67c7-2e71-4c6d-b777-739364ac5c16": {
+      "starttime": 1605863475616,
+      "endtime": 1605863479922,
+      "duration": 4326.7,
+      "billedDuration": 4400,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "a26cd021-b558-4108-8b4e-835d3259826e": {
+      "starttime": 1605863472585,
+      "endtime": 1605863479957,
+      "duration": 7394.4,
+      "billedDuration": 7400,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7372,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11800,
+  "totalDuration": 11721.1,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb788ffde89eb00076df49f"
+  },
+  "traceId": "eb190e80-5328-47aa-b85b-3a10b99390da",
+  "starttime": {
+    "$date": "2020-11-20T09:12:12.970Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:12:20.437Z"
+  },
+  "invocationInformation": {
+    "b962f56d-795a-4ed4-a4b8-9611328f873e": {
+      "starttime": 1605863536180,
+      "endtime": 1605863540392,
+      "duration": 4273.35,
+      "billedDuration": 4300,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "fcc5c1b9-2f14-4b4a-b5c1-c128c39008c5": {
+      "starttime": 1605863532970,
+      "endtime": 1605863540437,
+      "duration": 7487.96,
+      "billedDuration": 7500,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7467,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11800,
+  "totalDuration": 11761.31,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb788ffde89eb00076df4a0"
+  },
+  "traceId": "63739440-fcaf-46a2-b729-62fee5f09302",
+  "starttime": {
+    "$date": "2020-11-20T09:13:12.914Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:13:20.218Z"
+  },
+  "invocationInformation": {
+    "8bb8acf0-8fc6-481c-ab7b-097bf5ef4ae6": {
+      "starttime": 1605863595956,
+      "endtime": 1605863600175,
+      "duration": 4241.54,
+      "billedDuration": 4300,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "a6c41e15-a631-42d3-83fc-3448dddec44b": {
+      "starttime": 1605863592914,
+      "endtime": 1605863600218,
+      "duration": 7332.55,
+      "billedDuration": 7400,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7304,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11700,
+  "totalDuration": 11574.09,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb788ffde89eb00076df4a1"
+  },
+  "traceId": "22d86f8d-dac6-4951-81d4-64991dc81312",
+  "starttime": {
+    "$date": "2020-11-20T09:14:12.831Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:14:20.099Z"
+  },
+  "invocationInformation": {
+    "b451c555-d406-450b-991c-4076bbe70457": {
+      "starttime": 1605863655800,
+      "endtime": 1605863660071,
+      "duration": 4295.27,
+      "billedDuration": 4300,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "64bed644-af8f-4f0e-bc93-906b335bf0d3": {
+      "starttime": 1605863652831,
+      "endtime": 1605863660099,
+      "duration": 7307.96,
+      "billedDuration": 7400,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7268,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11700,
+  "totalDuration": 11603.23,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb78a2bde89eb00076df4d2"
+  },
+  "traceId": "b7962edd-1a92-4335-b559-71fd1b626e32",
+  "starttime": {
+    "$date": "2020-11-20T09:15:12.736Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:15:19.979Z"
+  },
+  "invocationInformation": {
+    "a93e30b4-3a6a-423f-903d-3f6085a4108a": {
+      "starttime": 1605863712736,
+      "endtime": 1605863719979,
+      "duration": 7265.59,
+      "billedDuration": 7300,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    },
+    "9d0479f6-ebe9-4a5e-8d61-9de0a3cb4019": {
+      "starttime": 1605863715862,
+      "endtime": 1605863719939,
+      "duration": 4101.55,
+      "billedDuration": 4200,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    }
+  },
+  "runtime": 7243,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11500,
+  "totalDuration": 11367.14,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb78a2bde89eb00076df4d3"
+  },
+  "traceId": "37c1906e-58a1-42fc-ad12-4645c523fa6e",
+  "starttime": {
+    "$date": "2020-11-20T09:16:12.864Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:16:20.260Z"
+  },
+  "invocationInformation": {
+    "e28546c6-41f2-4d21-a15d-56cfd28ecc51": {
+      "starttime": 1605863772864,
+      "endtime": 1605863780260,
+      "duration": 7439.66,
+      "billedDuration": 7500,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    },
+    "5d6d8c52-db16-4395-bca9-72278ca2f221": {
+      "starttime": 1605863775993,
+      "endtime": 1605863780230,
+      "duration": 4260.55,
+      "billedDuration": 4300,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    }
+  },
+  "runtime": 7396,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11800,
+  "totalDuration": 11700.21,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb78a2bde89eb00076df4d4"
+  },
+  "traceId": "3cfb3efc-d139-4282-bc85-4f68039ad04a",
+  "starttime": {
+    "$date": "2020-11-20T09:17:12.713Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:17:20.021Z"
+  },
+  "invocationInformation": {
+    "f3b1baf1-4847-4ed6-9d0a-278db0a92607": {
+      "starttime": 1605863832713,
+      "endtime": 1605863840021,
+      "duration": 7347.65,
+      "billedDuration": 7400,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    },
+    "30a3e563-6020-4b9e-803f-ae4ee674e2a5": {
+      "starttime": 1605863835782,
+      "endtime": 1605863839977,
+      "duration": 4215.52,
+      "billedDuration": 4300,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    }
+  },
+  "runtime": 7308,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11700,
+  "totalDuration": 11563.17,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb78a2bde89eb00076df4d5"
+  },
+  "traceId": "8b2148f5-f9ed-43a6-b4f9-d952c51a18d5",
+  "starttime": {
+    "$date": "2020-11-20T09:18:12.683Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:18:20.041Z"
+  },
+  "invocationInformation": {
+    "4f445c18-b6fd-4ba8-947d-76b38ffaa1e3": {
+      "starttime": 1605863892683,
+      "endtime": 1605863900041,
+      "duration": 7380.88,
+      "billedDuration": 7400,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    },
+    "e55bdee9-431d-48c9-8f31-eef10d19cb5d": {
+      "starttime": 1605863895760,
+      "endtime": 1605863900012,
+      "duration": 4274.92,
+      "billedDuration": 4300,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    }
+  },
+  "runtime": 7358,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11700,
+  "totalDuration": 11655.8,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb78a2bde89eb00076df4d6"
+  },
+  "traceId": "07830cf2-1c0f-4630-9e3b-55b455e8de38",
+  "starttime": {
+    "$date": "2020-11-20T09:19:12.862Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:19:20.263Z"
+  },
+  "invocationInformation": {
+    "531d3865-132b-4341-a0ff-cc59b1b3dd1c": {
+      "starttime": 1605863952862,
+      "endtime": 1605863960263,
+      "duration": 7425.64,
+      "billedDuration": 7500,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    },
+    "b70f496a-d050-40ee-9211-ee0d013b3df2": {
+      "starttime": 1605863956016,
+      "endtime": 1605863960224,
+      "duration": 4226.78,
+      "billedDuration": 4300,
+      "memorySize": 320,
+      "memoryUsed": 283,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    }
+  },
+  "runtime": 7401,
+  "totalMemoryUsed": 603,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11800,
+  "totalDuration": 11652.42,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb78b56de89eb00076df526"
+  },
+  "traceId": "f94acbc3-07a8-4095-a98b-20d1ca79bbdc",
+  "starttime": {
+    "$date": "2020-11-20T09:22:20.993Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:22:38.054Z"
+  },
+  "invocationInformation": {
+    "613dc69d-5018-42fe-a91d-7ea6249bac75": {
+      "starttime": 1605864140993,
+      "endtime": 1605864158054,
+      "duration": 17476.99,
+      "billedDuration": 17500,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": 284.3,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 17061,
+  "totalMemoryUsed": 320,
+  "totalMemoryAllocated": 320,
+  "totalBilledDuration": 17500,
+  "totalDuration": 17476.99,
+  "lambdasCount": 1,
+  "totalColdStartTime": 284.3
+},{
+  "_id": {
+    "$oid": "5fb78b56de89eb00076df527"
+  },
+  "traceId": "6cbedc2c-7d90-4ef9-a88a-13cf4dc3995e",
+  "starttime": {
+    "$date": "2020-11-20T09:23:12.653Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:23:20.791Z"
+  },
+  "invocationInformation": {
+    "97010c5c-8c60-441a-a823-0d0bbc92695c": {
+      "starttime": 1605864192653,
+      "endtime": 1605864200791,
+      "duration": 8295.45,
+      "billedDuration": 8300,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 8138,
+  "totalMemoryUsed": 320,
+  "totalMemoryAllocated": 320,
+  "totalBilledDuration": 8300,
+  "totalDuration": 8295.45,
+  "lambdasCount": 1,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb78b56de89eb00076df528"
+  },
+  "traceId": "bec909ca-2e17-4f8a-9383-5ef1c1068433",
+  "starttime": {
+    "$date": "2020-11-20T09:24:12.791Z"
+  },
+  "endtime": {
+    "$date": "1970-01-01T00:00:00Z"
+  },
+  "invocationInformation": {
+    "0e725176-0220-4098-a895-4e7267c6c487": {
+      "starttime": 1605864252791,
+      "endtime": null
+    }
+  },
+  "totalMemoryUsed": 0,
+  "totalMemoryAllocated": 0,
+  "totalBilledDuration": 0,
+  "totalDuration": 0,
+  "lambdasCount": 1,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb78b56de89eb00076df544"
+  },
+  "traceId": "2734cacf-4db0-4e5a-a6a5-05905289e85f",
+  "starttime": {
+    "$date": "2020-11-20T09:20:12.838Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:20:22.742Z"
+  },
+  "invocationInformation": {
+    "3f506b5a-5386-4277-8310-fbce82547fbb": {
+      "starttime": 1605864012838,
+      "endtime": 1605864022742,
+      "duration": 9950.08,
+      "billedDuration": 10000,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 9904,
+  "totalMemoryUsed": 320,
+  "totalMemoryAllocated": 320,
+  "totalBilledDuration": 10000,
+  "totalDuration": 9950.08,
+  "lambdasCount": 1,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb78b56de89eb00076df545"
+  },
+  "traceId": "6f23b56c-c586-48b4-8d75-22f6190c6b89",
+  "starttime": {
+    "$date": "2020-11-20T09:21:12.735Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:21:21.646Z"
+  },
+  "invocationInformation": {
+    "77a42d04-92a3-4b7c-8266-8d7e4d4195da": {
+      "starttime": 1605864072735,
+      "endtime": 1605864081646,
+      "duration": 8943.55,
+      "billedDuration": 9000,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 8911,
+  "totalMemoryUsed": 320,
+  "totalMemoryAllocated": 320,
+  "totalBilledDuration": 9000,
+  "totalDuration": 8943.55,
+  "lambdasCount": 1,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb78c82de89eb00076df560"
+  },
+  "traceId": "657f1303-5b12-4891-bf19-4c4938045074",
+  "starttime": {
+    "$date": "2020-11-20T09:28:14.403Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:28:35.582Z"
+  },
+  "invocationInformation": {
+    "ad1995c4-1cae-49e8-8b66-70265f728c63": {
+      "starttime": 1605864494403,
+      "endtime": 1605864515582,
+      "duration": 21725.4,
+      "billedDuration": 21800,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": 334.45,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 21179,
+  "totalMemoryUsed": 320,
+  "totalMemoryAllocated": 320,
+  "totalBilledDuration": 21800,
+  "totalDuration": 21725.4,
+  "lambdasCount": 1,
+  "totalColdStartTime": 334.45
+},{
+  "_id": {
+    "$oid": "5fb78c82de89eb00076df561"
+  },
+  "traceId": "0dae4e09-17aa-4bf8-afec-f5bc5ca1919a",
+  "starttime": {
+    "$date": "2020-11-20T09:29:12.861Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:29:21.525Z"
+  },
+  "invocationInformation": {
+    "50a29c91-9631-468b-a830-9d90caaa8d56": {
+      "starttime": 1605864552861,
+      "endtime": 1605864561525,
+      "duration": 8855.84,
+      "billedDuration": 8900,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 8664,
+  "totalMemoryUsed": 320,
+  "totalMemoryAllocated": 320,
+  "totalBilledDuration": 8900,
+  "totalDuration": 8855.84,
+  "lambdasCount": 1,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb78c82de89eb00076df565"
+  },
+  "traceId": "a1ad748e-2764-4a1e-8b72-afcb1ce3ec71",
+  "starttime": {
+    "$date": "2020-11-20T09:25:13.051Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:25:46.178Z"
+  },
+  "invocationInformation": {
+    "8209facf-ae0b-4cf0-b7ab-16ed752aed91": {
+      "starttime": 1605864313051,
+      "endtime": 1605864346178,
+      "duration": 33289.13,
+      "billedDuration": 33300,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 33127,
+  "totalMemoryUsed": 320,
+  "totalMemoryAllocated": 320,
+  "totalBilledDuration": 33300,
+  "totalDuration": 33289.13,
+  "lambdasCount": 1,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb78c82de89eb00076df566"
+  },
+  "traceId": "18417250-9946-4449-8e6a-45efc3e8c787",
+  "starttime": {
+    "$date": "2020-11-20T09:26:12.574Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:27:00.523Z"
+  },
+  "invocationInformation": {
+    "d808aefe-74eb-454f-9400-8a81307f84a8": {
+      "starttime": 1605864372574,
+      "endtime": 1605864420523,
+      "duration": 48078.7,
+      "billedDuration": 48100,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 47949,
+  "totalMemoryUsed": 320,
+  "totalMemoryAllocated": 320,
+  "totalBilledDuration": 48100,
+  "totalDuration": 48078.7,
+  "lambdasCount": 1,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb78c82de89eb00076df567"
+  },
+  "traceId": "8a1ac705-dc7e-4727-b1af-5a0e5879b146",
+  "starttime": {
+    "$date": "2020-11-20T09:27:12.840Z"
+  },
+  "endtime": {
+    "$date": "1970-01-01T00:00:00Z"
+  },
+  "invocationInformation": {
+    "520d88a2-4a18-4bd8-a26a-5d19c5b25ddc": {
+      "starttime": 1605864432840,
+      "endtime": null,
+      "duration": 10083.04,
+      "billedDuration": 10100,
+      "memorySize": 320,
+      "memoryUsed": 268,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "totalMemoryUsed": 268,
+  "totalMemoryAllocated": 320,
+  "totalBilledDuration": 10100,
+  "totalDuration": 10083.04,
+  "lambdasCount": 1,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb78c82de89eb00076df568"
+  },
+  "traceId": "47f04f5c-f527-41de-9a52-a7d6d6d2cab4",
+  "starttime": {
+    "$date": "2020-11-20T09:29:17.598Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:29:27.158Z"
+  },
+  "invocationInformation": {
+    "520d88a2-4a18-4bd8-a26a-5d19c5b25ddc": {
+      "starttime": 1605864557598,
+      "endtime": 1605864567158,
+      "duration": 10083.04,
+      "billedDuration": 10100,
+      "memorySize": 320,
+      "memoryUsed": 268,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 9560,
+  "totalMemoryUsed": 268,
+  "totalMemoryAllocated": 320,
+  "totalBilledDuration": 10100,
+  "totalDuration": 10083.04,
+  "lambdasCount": 1,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb78daede89eb00076df5a9"
+  },
+  "traceId": "7616e094-997c-4519-b074-46e98d2ec1b9",
+  "starttime": {
+    "$date": "2020-11-20T09:30:12.850Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:30:20.299Z"
+  },
+  "invocationInformation": {
+    "a217da05-6ed7-40a5-aad0-f6ba80dd51b7": {
+      "starttime": 1605864612850,
+      "endtime": 1605864620299,
+      "duration": 7477.07,
+      "billedDuration": 7500,
+      "memorySize": 320,
+      "memoryUsed": 301,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7449,
+  "totalMemoryUsed": 301,
+  "totalMemoryAllocated": 320,
+  "totalBilledDuration": 7500,
+  "totalDuration": 7477.07,
+  "lambdasCount": 1,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb78daede89eb00076df5aa"
+  },
+  "traceId": "4294c77a-91e5-4971-86a2-0cd83428c910",
+  "starttime": {
+    "$date": "2020-11-20T09:31:12.879Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:31:20.322Z"
+  },
+  "invocationInformation": {
+    "5f624792-9535-4b2b-b8c7-104ca0b1deed": {
+      "starttime": 1605864672879,
+      "endtime": 1605864680322,
+      "duration": 7610.62,
+      "billedDuration": 7700,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7443,
+  "totalMemoryUsed": 320,
+  "totalMemoryAllocated": 320,
+  "totalBilledDuration": 7700,
+  "totalDuration": 7610.62,
+  "lambdasCount": 1,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb78daede89eb00076df5ab"
+  },
+  "traceId": "8d94e536-1f11-4942-bec2-67b0f340a33f",
+  "starttime": {
+    "$date": "2020-11-20T09:32:12.604Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:32:20.061Z"
+  },
+  "invocationInformation": {
+    "79613e96-e35d-41d4-8a40-3ab98a04f2d9": {
+      "starttime": 1605864732604,
+      "endtime": 1605864740061,
+      "duration": 7482.76,
+      "billedDuration": 7500,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7457,
+  "totalMemoryUsed": 320,
+  "totalMemoryAllocated": 320,
+  "totalBilledDuration": 7500,
+  "totalDuration": 7482.76,
+  "lambdasCount": 1,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb78daede89eb00076df5ac"
+  },
+  "traceId": "3948f46c-185b-4bf7-a557-66257e8697cd",
+  "starttime": {
+    "$date": "2020-11-20T09:33:12.822Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:33:20.502Z"
+  },
+  "invocationInformation": {
+    "b0c3c9df-25ca-41f8-85b0-85fcb59693de": {
+      "starttime": 1605864792822,
+      "endtime": 1605864800502,
+      "duration": 7702.5,
+      "billedDuration": 7800,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7680,
+  "totalMemoryUsed": 320,
+  "totalMemoryAllocated": 320,
+  "totalBilledDuration": 7800,
+  "totalDuration": 7702.5,
+  "lambdasCount": 1,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb78daede89eb00076df5ad"
+  },
+  "traceId": "7cf5214d-2d4f-4e1b-9c00-6c555149078b",
+  "starttime": {
+    "$date": "2020-11-20T09:34:12.710Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:34:20.003Z"
+  },
+  "invocationInformation": {
+    "29c69467-8bb5-4e16-8044-72984766bcee": {
+      "starttime": 1605864852710,
+      "endtime": 1605864860003,
+      "duration": 7315.32,
+      "billedDuration": 7400,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7293,
+  "totalMemoryUsed": 320,
+  "totalMemoryAllocated": 320,
+  "totalBilledDuration": 7400,
+  "totalDuration": 7315.32,
+  "lambdasCount": 1,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb78edade89eb00076df5f3"
+  },
+  "traceId": "46d055fc-cea7-40ef-8133-cb84790284de",
+  "starttime": {
+    "$date": "2020-11-20T09:35:12.769Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:35:20.384Z"
+  },
+  "invocationInformation": {
+    "644cef53-174d-4b4e-a191-3350b30f96ca": {
+      "starttime": 1605864912769,
+      "endtime": 1605864920384,
+      "duration": 7639.09,
+      "billedDuration": 7700,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7615,
+  "totalMemoryUsed": 320,
+  "totalMemoryAllocated": 320,
+  "totalBilledDuration": 7700,
+  "totalDuration": 7639.09,
+  "lambdasCount": 1,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb78edade89eb00076df5f4"
+  },
+  "traceId": "77d2b719-ec89-4679-a98b-0848d67fe60f",
+  "starttime": {
+    "$date": "2020-11-20T09:36:12.773Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:36:20.165Z"
+  },
+  "invocationInformation": {
+    "1686c825-535f-42e2-907c-1d24b630b766": {
+      "starttime": 1605864972773,
+      "endtime": 1605864980165,
+      "duration": 7413.15,
+      "billedDuration": 7500,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7392,
+  "totalMemoryUsed": 320,
+  "totalMemoryAllocated": 320,
+  "totalBilledDuration": 7500,
+  "totalDuration": 7413.15,
+  "lambdasCount": 1,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb78edade89eb00076df5f5"
+  },
+  "traceId": "97bbcdab-859a-4ca4-a3df-62733ad8a004",
+  "starttime": {
+    "$date": "2020-11-20T09:37:12.802Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:37:20.386Z"
+  },
+  "invocationInformation": {
+    "6eaa1b6b-d913-48c2-ba6f-dca0f19503cd": {
+      "starttime": 1605865032802,
+      "endtime": 1605865040386,
+      "duration": 7606.2,
+      "billedDuration": 7700,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7584,
+  "totalMemoryUsed": 320,
+  "totalMemoryAllocated": 320,
+  "totalBilledDuration": 7700,
+  "totalDuration": 7606.2,
+  "lambdasCount": 1,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb78edade89eb00076df5f6"
+  },
+  "traceId": "e200cbab-71d5-4609-b6b4-c1e7655ff9ec",
+  "starttime": {
+    "$date": "2020-11-20T09:38:12.698Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:38:20.107Z"
+  },
+  "invocationInformation": {
+    "22bb7d8a-119c-4503-af58-4a05734383b6": {
+      "starttime": 1605865092698,
+      "endtime": 1605865100107,
+      "duration": 7428.7,
+      "billedDuration": 7500,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7409,
+  "totalMemoryUsed": 320,
+  "totalMemoryAllocated": 320,
+  "totalBilledDuration": 7500,
+  "totalDuration": 7428.7,
+  "lambdasCount": 1,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb78edade89eb00076df5f7"
+  },
+  "traceId": "6640ea2b-2943-4bef-abbe-a4522f84159b",
+  "starttime": {
+    "$date": "2020-11-20T09:39:12.851Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:39:20.268Z"
+  },
+  "invocationInformation": {
+    "6a9d6b01-5138-42a7-9ae4-7363be8028d7": {
+      "starttime": 1605865152851,
+      "endtime": 1605865160268,
+      "duration": 7441.97,
+      "billedDuration": 7500,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7417,
+  "totalMemoryUsed": 320,
+  "totalMemoryAllocated": 320,
+  "totalBilledDuration": 7500,
+  "totalDuration": 7441.97,
+  "lambdasCount": 1,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb79007de89eb00076df642"
+  },
+  "traceId": "00223664-0d00-41e0-bd76-d32dce911374",
+  "starttime": {
+    "$date": "2020-11-20T09:40:12.834Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:40:20.388Z"
+  },
+  "invocationInformation": {
+    "667f915f-2b08-46fc-934a-908395d5f5c0": {
+      "starttime": 1605865212834,
+      "endtime": 1605865220388,
+      "duration": 7574.71,
+      "billedDuration": 7600,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7554,
+  "totalMemoryUsed": 320,
+  "totalMemoryAllocated": 320,
+  "totalBilledDuration": 7600,
+  "totalDuration": 7574.71,
+  "lambdasCount": 1,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb79007de89eb00076df643"
+  },
+  "traceId": "8f456715-3d52-4c2b-90fd-aac9aa1cee9f",
+  "starttime": {
+    "$date": "2020-11-20T09:41:12.890Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:41:20.330Z"
+  },
+  "invocationInformation": {
+    "03b57c47-0593-407e-8757-ebf541b93f08": {
+      "starttime": 1605865272890,
+      "endtime": 1605865280330,
+      "duration": 7467.23,
+      "billedDuration": 7500,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7440,
+  "totalMemoryUsed": 320,
+  "totalMemoryAllocated": 320,
+  "totalBilledDuration": 7500,
+  "totalDuration": 7467.23,
+  "lambdasCount": 1,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb79007de89eb00076df644"
+  },
+  "traceId": "9335c010-577d-4831-a09d-19b2d944d8c9",
+  "starttime": {
+    "$date": "2020-11-20T09:42:12.837Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:42:20.211Z"
+  },
+  "invocationInformation": {
+    "1d04b4e7-e780-499f-9891-76bc4c2980d5": {
+      "starttime": 1605865332837,
+      "endtime": 1605865340211,
+      "duration": 7396.26,
+      "billedDuration": 7400,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7374,
+  "totalMemoryUsed": 320,
+  "totalMemoryAllocated": 320,
+  "totalBilledDuration": 7400,
+  "totalDuration": 7396.26,
+  "lambdasCount": 1,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb79007de89eb00076df645"
+  },
+  "traceId": "9111a86e-c5c6-49dc-960e-40184454dbce",
+  "starttime": {
+    "$date": "2020-11-20T09:43:12.564Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:43:20.032Z"
+  },
+  "invocationInformation": {
+    "f1c9859e-ceb0-4a55-8fcb-ca8dd45c95a9": {
+      "starttime": 1605865392564,
+      "endtime": 1605865400032,
+      "duration": 7487.84,
+      "billedDuration": 7500,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7468,
+  "totalMemoryUsed": 320,
+  "totalMemoryAllocated": 320,
+  "totalBilledDuration": 7500,
+  "totalDuration": 7487.84,
+  "lambdasCount": 1,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb79007de89eb00076df646"
+  },
+  "traceId": "bfaf1ae5-a904-44f8-b44e-870cc386d5eb",
+  "starttime": {
+    "$date": "2020-11-20T09:44:12.643Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:44:20.033Z"
+  },
+  "invocationInformation": {
+    "db885ecd-4dac-4e95-baab-476a472c285b": {
+      "starttime": 1605865452643,
+      "endtime": 1605865460033,
+      "duration": 7411.21,
+      "billedDuration": 7500,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7390,
+  "totalMemoryUsed": 320,
+  "totalMemoryAllocated": 320,
+  "totalBilledDuration": 7500,
+  "totalDuration": 7411.21,
+  "lambdasCount": 1,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb79132de89eb00076df694"
+  },
+  "traceId": "49fb2b74-13a9-4ec9-8abe-8d31262a9cb2",
+  "starttime": {
+    "$date": "2020-11-20T09:45:12.921Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:45:20.275Z"
+  },
+  "invocationInformation": {
+    "10f35fe6-dace-4efa-b827-410d218c4766": {
+      "starttime": 1605865512921,
+      "endtime": 1605865520275,
+      "duration": 7392.79,
+      "billedDuration": 7400,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7354,
+  "totalMemoryUsed": 320,
+  "totalMemoryAllocated": 320,
+  "totalBilledDuration": 7400,
+  "totalDuration": 7392.79,
+  "lambdasCount": 1,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb79132de89eb00076df695"
+  },
+  "traceId": "513d3953-ddeb-493d-a16e-6179da5ecc32",
+  "starttime": {
+    "$date": "2020-11-20T09:46:12.772Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:46:20.317Z"
+  },
+  "invocationInformation": {
+    "7e3116e3-9288-4918-90a6-8420f9f2b760": {
+      "starttime": 1605865572772,
+      "endtime": 1605865580317,
+      "duration": 7573.01,
+      "billedDuration": 7600,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7545,
+  "totalMemoryUsed": 320,
+  "totalMemoryAllocated": 320,
+  "totalBilledDuration": 7600,
+  "totalDuration": 7573.01,
+  "lambdasCount": 1,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb79132de89eb00076df696"
+  },
+  "traceId": "7e42bfc9-ce7e-47ae-8491-050d1815d6e6",
+  "starttime": {
+    "$date": "2020-11-20T09:47:13.049Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:47:20.697Z"
+  },
+  "invocationInformation": {
+    "a7d245f2-8536-4167-a200-014c09acfa56": {
+      "starttime": 1605865633049,
+      "endtime": 1605865640697,
+      "duration": 7670.69,
+      "billedDuration": 7700,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7648,
+  "totalMemoryUsed": 320,
+  "totalMemoryAllocated": 320,
+  "totalBilledDuration": 7700,
+  "totalDuration": 7670.69,
+  "lambdasCount": 1,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb79132de89eb00076df697"
+  },
+  "traceId": "df9e13c7-85e7-4759-88ac-b58321137f32",
+  "starttime": {
+    "$date": "2020-11-20T09:48:12.877Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:48:20.257Z"
+  },
+  "invocationInformation": {
+    "c78ed338-16cc-4cb7-bd4f-14fe4d165eec": {
+      "starttime": 1605865692877,
+      "endtime": 1605865700257,
+      "duration": 7399.46,
+      "billedDuration": 7400,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7380,
+  "totalMemoryUsed": 320,
+  "totalMemoryAllocated": 320,
+  "totalBilledDuration": 7400,
+  "totalDuration": 7399.46,
+  "lambdasCount": 1,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb79132de89eb00076df698"
+  },
+  "traceId": "f2d0d4c9-34fe-4584-a48d-fc90fddaefa8",
+  "starttime": {
+    "$date": "2020-11-20T09:49:12.693Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:49:21.078Z"
+  },
+  "invocationInformation": {
+    "a8c5ef44-dcdf-4cfb-b973-a9ba64623b57": {
+      "starttime": 1605865752693,
+      "endtime": 1605865761078,
+      "duration": 8406.69,
+      "billedDuration": 8500,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 8385,
+  "totalMemoryUsed": 320,
+  "totalMemoryAllocated": 320,
+  "totalBilledDuration": 8500,
+  "totalDuration": 8406.69,
+  "lambdasCount": 1,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb7925fde89eb00076df726"
+  },
+  "traceId": "cbd40a45-3e05-4ea8-aeaa-e24186692816",
+  "starttime": {
+    "$date": "2020-11-20T09:53:17.107Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:53:38.671Z"
+  },
+  "invocationInformation": {
+    "7e68984c-d8dd-460b-9406-5decc281c830": {
+      "starttime": 1605866012860,
+      "endtime": 1605866018569,
+      "duration": 7096.4,
+      "billedDuration": 7100,
+      "memorySize": 320,
+      "memoryUsed": 165,
+      "coldStart": 260.53,
+      "lambdaName": "handler1"
+    },
+    "c1a8316e-f409-4686-9cb8-b1b82db1f3bb": {
+      "starttime": 1605865997107,
+      "endtime": 1605866018671,
+      "duration": 3147.79,
+      "billedDuration": 3200,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 21564,
+  "totalMemoryUsed": 485,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 10300,
+  "totalDuration": 10244.19,
+  "lambdasCount": 2,
+  "totalColdStartTime": 260.53
+},{
+  "_id": {
+    "$oid": "5fb7925fde89eb00076df727"
+  },
+  "traceId": "c75229bd-0acf-4693-a19e-6a19c380f959",
+  "starttime": {
+    "$date": "2020-11-20T09:54:13.090Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:54:21.150Z"
+  },
+  "invocationInformation": {
+    "ec4d8e9b-53f1-49a0-8cee-6632e345d72e": {
+      "starttime": 1605866056533,
+      "endtime": 1605866061101,
+      "duration": 4768.49,
+      "billedDuration": 4800,
+      "memorySize": 320,
+      "memoryUsed": 202,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "794d74ac-3818-492c-a420-272e85ad36bd": {
+      "starttime": 1605866053090,
+      "endtime": 1605866061150,
+      "duration": 8228.49,
+      "billedDuration": 8300,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 8060,
+  "totalMemoryUsed": 522,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 13100,
+  "totalDuration": 12996.98,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb7925fde89eb00076df728"
+  },
+  "traceId": "3f7227b2-8a11-4f7b-b8a0-eecb51b79759",
+  "starttime": {
+    "$date": "2020-11-20T09:53:24.791Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:53:43.030Z"
+  },
+  "invocationInformation": {
+    "d1857f97-e733-494e-ab97-b9619b3a3423": {
+      "starttime": 1605866004791,
+      "endtime": 1605866023030,
+      "duration": 5785.86,
+      "billedDuration": 5800,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    },
+    "4baa87ce-74d6-4f50-972d-24831a22a047": {
+      "starttime": 1605866018380,
+      "endtime": 1605866022927,
+      "duration": 4571.47,
+      "billedDuration": 4600,
+      "memorySize": 320,
+      "memoryUsed": 206,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    }
+  },
+  "runtime": 18239,
+  "totalMemoryUsed": 526,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 10400,
+  "totalDuration": 10357.33,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb7925fde89eb00076df729"
+  },
+  "traceId": "a005b902-4a47-48c0-bace-d548645974c3",
+  "starttime": {
+    "$date": "2020-11-20T09:54:10.088Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:54:18.071Z"
+  },
+  "invocationInformation": {
+    "c4a0b55f-6bc8-49d8-8129-92bd224dd5b8": {
+      "starttime": 1605866050088,
+      "endtime": 1605866058071,
+      "duration": 5484.81,
+      "billedDuration": 5500,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    },
+    "553c83d3-d9fe-498c-a0d2-862aad12aca8": {
+      "starttime": 1605866053568,
+      "endtime": 1605866058031,
+      "duration": 4668.29,
+      "billedDuration": 4700,
+      "memorySize": 320,
+      "memoryUsed": 241,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    }
+  },
+  "runtime": 7983,
+  "totalMemoryUsed": 561,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 10200,
+  "totalDuration": 10153.1,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb7925fde89eb00076df72a"
+  },
+  "traceId": "6e0f23eb-de3d-4943-8108-069d5f87d689",
+  "starttime": {
+    "$date": "2020-11-20T09:53:13.922Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:53:35.543Z"
+  },
+  "invocationInformation": {
+    "9acec418-ced4-4181-bc5e-b76332731cb9": {
+      "starttime": 1605866009726,
+      "endtime": 1605866015452,
+      "duration": 7119.57,
+      "billedDuration": 7200,
+      "memorySize": 320,
+      "memoryUsed": 161,
+      "coldStart": 261.98,
+      "lambdaName": "handler1"
+    },
+    "8fe81d81-d1d5-4689-867d-33df3e349e56": {
+      "starttime": 1605865993922,
+      "endtime": 1605866015543,
+      "duration": 22150.48,
+      "billedDuration": 22200,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": 258.27,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 21621,
+  "totalMemoryUsed": 481,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 29400,
+  "totalDuration": 29270.05,
+  "lambdasCount": 2,
+  "totalColdStartTime": 520.25
+},{
+  "_id": {
+    "$oid": "5fb7938ade89eb00076df72f"
+  },
+  "traceId": "8e2e588d-41fa-4674-90af-7d35bd8cc73a",
+  "starttime": {
+    "$date": "2020-11-20T09:55:12.788Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:55:20.309Z"
+  },
+  "invocationInformation": {
+    "78ac66c9-819d-436a-a66f-80a580efe002": {
+      "starttime": 1605866112788,
+      "endtime": 1605866120309,
+      "duration": 7574.06,
+      "billedDuration": 7600,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    },
+    "17aa1ff1-47f9-4cde-842b-a4faa332e9ba": {
+      "starttime": 1605866115894,
+      "endtime": 1605866120231,
+      "duration": 4362.99,
+      "billedDuration": 4400,
+      "memorySize": 320,
+      "memoryUsed": 223,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    }
+  },
+  "runtime": 7521,
+  "totalMemoryUsed": 543,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 12000,
+  "totalDuration": 11937.05,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb7938ade89eb00076df730"
+  },
+  "traceId": "f7bfb494-21e3-4d36-a619-d3af5989c26c",
+  "starttime": {
+    "$date": "2020-11-20T09:56:12.683Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:56:20.068Z"
+  },
+  "invocationInformation": {
+    "1fdcabf9-983c-4124-a9df-d387672f9815": {
+      "starttime": 1605866172683,
+      "endtime": 1605866180068,
+      "duration": 7426.4,
+      "billedDuration": 7500,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    },
+    "21c33d69-191d-42b3-a927-1d98745f91e3": {
+      "starttime": 1605866175776,
+      "endtime": 1605866180032,
+      "duration": 4291.85,
+      "billedDuration": 4300,
+      "memorySize": 320,
+      "memoryUsed": 234,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    }
+  },
+  "runtime": 7385,
+  "totalMemoryUsed": 554,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11800,
+  "totalDuration": 11718.25,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb7938ade89eb00076df731"
+  },
+  "traceId": "9f0169cf-899f-4de3-ae22-f081d98a10e8",
+  "starttime": {
+    "$date": "2020-11-20T09:57:12.855Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:57:20.149Z"
+  },
+  "invocationInformation": {
+    "7c63a27c-c224-4f22-97cf-6676b1cfd225": {
+      "starttime": 1605866232855,
+      "endtime": 1605866240149,
+      "duration": 7336.99,
+      "billedDuration": 7400,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    },
+    "f0d4ca87-2914-4bba-b5b8-8b96b1c9c16a": {
+      "starttime": 1605866235891,
+      "endtime": 1605866240122,
+      "duration": 4276.56,
+      "billedDuration": 4300,
+      "memorySize": 320,
+      "memoryUsed": 236,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    }
+  },
+  "runtime": 7294,
+  "totalMemoryUsed": 556,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11700,
+  "totalDuration": 11613.55,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb7938ade89eb00076df732"
+  },
+  "traceId": "9d562cdd-8cf1-45eb-b8fc-af9800489022",
+  "starttime": {
+    "$date": "2020-11-20T09:58:12.776Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:58:20.129Z"
+  },
+  "invocationInformation": {
+    "58d20e6d-cd2f-4130-8c8d-d9e0cc08c495": {
+      "starttime": 1605866292776,
+      "endtime": 1605866300129,
+      "duration": 7396.12,
+      "billedDuration": 7400,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    },
+    "44551be2-529e-45d4-944f-7e81273a828f": {
+      "starttime": 1605866295838,
+      "endtime": 1605866300093,
+      "duration": 4283.9,
+      "billedDuration": 4300,
+      "memorySize": 320,
+      "memoryUsed": 236,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    }
+  },
+  "runtime": 7353,
+  "totalMemoryUsed": 556,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11700,
+  "totalDuration": 11680.02,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb7938ade89eb00076df733"
+  },
+  "traceId": "c23c3474-4496-4a14-ae45-c7440627425a",
+  "starttime": {
+    "$date": "2020-11-20T09:59:12.842Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T09:59:20.149Z"
+  },
+  "invocationInformation": {
+    "1390ddf2-85ef-4c55-96f3-13e526ff2303": {
+      "starttime": 1605866352842,
+      "endtime": 1605866360149,
+      "duration": 7345.14,
+      "billedDuration": 7400,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    },
+    "7ff64fcf-fdd0-445c-a03f-84b63555ae9c": {
+      "starttime": 1605866355926,
+      "endtime": 1605866360114,
+      "duration": 4208.55,
+      "billedDuration": 4300,
+      "memorySize": 320,
+      "memoryUsed": 246,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    }
+  },
+  "runtime": 7307,
+  "totalMemoryUsed": 566,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11700,
+  "totalDuration": 11553.69,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb794b6de89eb00076df738"
+  },
+  "traceId": "2d37796f-ac57-4101-b671-5685897b4f25",
+  "starttime": {
+    "$date": "2020-11-20T10:01:12.732Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T10:01:20.069Z"
+  },
+  "invocationInformation": {
+    "4130c2cb-22d0-4e81-841f-04ea858f5d62": {
+      "starttime": 1605866475836,
+      "endtime": 1605866480013,
+      "duration": 4202.4,
+      "billedDuration": 4300,
+      "memorySize": 320,
+      "memoryUsed": 260,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "938c350d-3271-46d9-91df-a59588814c2f": {
+      "starttime": 1605866472732,
+      "endtime": 1605866480069,
+      "duration": 7357.38,
+      "billedDuration": 7400,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7337,
+  "totalMemoryUsed": 580,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11700,
+  "totalDuration": 11559.78,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb794b6de89eb00076df739"
+  },
+  "traceId": "e2868320-c4c9-4d3b-91a7-79f37d949934",
+  "starttime": {
+    "$date": "2020-11-20T10:02:12.828Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T10:02:20.090Z"
+  },
+  "invocationInformation": {
+    "5ba492e7-ade9-410b-8eec-db51b9266efc": {
+      "starttime": 1605866535942,
+      "endtime": 1605866540049,
+      "duration": 4159.1,
+      "billedDuration": 4200,
+      "memorySize": 320,
+      "memoryUsed": 260,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "bbea2ccf-575f-4972-b93d-e97f064686de": {
+      "starttime": 1605866532828,
+      "endtime": 1605866540090,
+      "duration": 7295.69,
+      "billedDuration": 7300,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7262,
+  "totalMemoryUsed": 580,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11500,
+  "totalDuration": 11454.79,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb794b6de89eb00076df73a"
+  },
+  "traceId": "6137a451-fd21-42da-b66b-7efe622266bc",
+  "starttime": {
+    "$date": "2020-11-20T10:03:12.965Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T10:03:20.350Z"
+  },
+  "invocationInformation": {
+    "2262c4ec-37e0-4e8c-a679-b18557f37565": {
+      "starttime": 1605866596151,
+      "endtime": 1605866600293,
+      "duration": 4181.42,
+      "billedDuration": 4200,
+      "memorySize": 320,
+      "memoryUsed": 260,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "4d972fef-5ee1-4acd-9aaf-2c992cd9c7f5": {
+      "starttime": 1605866592965,
+      "endtime": 1605866600350,
+      "duration": 7414.59,
+      "billedDuration": 7500,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7385,
+  "totalMemoryUsed": 580,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11700,
+  "totalDuration": 11596.01,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb794b6de89eb00076df73b"
+  },
+  "traceId": "a01967a4-c87b-4e3f-9bf0-810eb451320b",
+  "starttime": {
+    "$date": "2020-11-20T10:04:12.943Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T10:04:20.167Z"
+  },
+  "invocationInformation": {
+    "a002f90d-a277-418d-9824-4fb0015aa4cd": {
+      "starttime": 1605866656055,
+      "endtime": 1605866660167,
+      "duration": 4135.48,
+      "billedDuration": 4200,
+      "memorySize": 320,
+      "memoryUsed": 260,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "b834492a-e384-4844-8b34-01b28284f1cb": {
+      "starttime": 1605866652943,
+      "duration": 7306.27,
+      "billedDuration": 7400,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7224,
+  "totalMemoryUsed": 580,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11600,
+  "totalDuration": 11441.75,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb794b6de89eb00076df743"
+  },
+  "traceId": "9a42b751-3eae-41c5-85b4-37e7c303495e",
+  "starttime": {
+    "$date": "2020-11-20T10:00:12.986Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T10:00:20.609Z"
+  },
+  "invocationInformation": {
+    "a9be4ee8-1034-4047-bb00-b0408cc9d932": {
+      "starttime": 1605866412986,
+      "endtime": 1605866420609,
+      "duration": 7657.65,
+      "billedDuration": 7700,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    },
+    "e6b8b682-a200-4ccf-84c5-2b0ad7b478d6": {
+      "starttime": 1605866416140,
+      "endtime": 1605866420559,
+      "duration": 4453.77,
+      "billedDuration": 4500,
+      "memorySize": 320,
+      "memoryUsed": 256,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    }
+  },
+  "runtime": 7623,
+  "totalMemoryUsed": 576,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 12200,
+  "totalDuration": 12111.42,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb795e4de89eb00076df74b"
+  },
+  "traceId": "33886973-b11d-4242-ac73-2769282652ed",
+  "starttime": {
+    "$date": "2020-11-20T10:05:12.726Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T10:05:20.191Z"
+  },
+  "invocationInformation": {
+    "99bd4756-05df-48dd-96cc-73d2bfa87b1c": {
+      "starttime": 1605866715885,
+      "endtime": 1605866720147,
+      "duration": 4283,
+      "billedDuration": 4300,
+      "memorySize": 320,
+      "memoryUsed": 268,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "791253d9-e53f-4fd9-bfc1-360109eab29e": {
+      "starttime": 1605866712726,
+      "endtime": 1605866720191,
+      "duration": 7509.12,
+      "billedDuration": 7600,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7465,
+  "totalMemoryUsed": 588,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11900,
+  "totalDuration": 11792.12,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb795e4de89eb00076df74c"
+  },
+  "traceId": "4071c3f6-0d52-40a9-9dcc-259195204cf4",
+  "starttime": {
+    "$date": "2020-11-20T10:06:12.592Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T10:06:19.771Z"
+  },
+  "invocationInformation": {
+    "8fb2b542-6d73-4f79-b2f3-6ea87c0675a1": {
+      "starttime": 1605866775626,
+      "endtime": 1605866779736,
+      "duration": 4135.41,
+      "billedDuration": 4200,
+      "memorySize": 320,
+      "memoryUsed": 268,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "f2cd854f-5c86-4963-97ae-2acb8effb9fa": {
+      "starttime": 1605866772592,
+      "endtime": 1605866779771,
+      "duration": 7203.21,
+      "billedDuration": 7300,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7179,
+  "totalMemoryUsed": 588,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11500,
+  "totalDuration": 11338.62,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb795e4de89eb00076df74d"
+  },
+  "traceId": "6818d06d-0a5d-4011-9552-adbeeceeb34d",
+  "starttime": {
+    "$date": "2020-11-20T10:07:12.686Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T10:07:20.152Z"
+  },
+  "invocationInformation": {
+    "f7869a1c-a1a0-49ae-af53-275a2c232159": {
+      "starttime": 1605866835788,
+      "endtime": 1605866840087,
+      "duration": 4322.47,
+      "billedDuration": 4400,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "7cce608a-105e-40ee-9345-69257859b74a": {
+      "starttime": 1605866832686,
+      "endtime": 1605866840152,
+      "duration": 7491.06,
+      "billedDuration": 7500,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7466,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11900,
+  "totalDuration": 11813.53,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb795e4de89eb00076df74e"
+  },
+  "traceId": "28a32c56-7b91-482c-80b3-b8c2ebe59d6c",
+  "starttime": {
+    "$date": "2020-11-20T10:08:12.563Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T10:08:19.672Z"
+  },
+  "invocationInformation": {
+    "2ef33230-2933-4e38-ac7b-1812eb9a5a84": {
+      "starttime": 1605866895634,
+      "endtime": 1605866899640,
+      "duration": 4030.83,
+      "billedDuration": 4100,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "92d47804-1a29-4f56-b0d8-051efe9a7c10": {
+      "starttime": 1605866892563,
+      "endtime": 1605866899672,
+      "duration": 7139.63,
+      "billedDuration": 7200,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7109,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11300,
+  "totalDuration": 11170.46,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb795e4de89eb00076df74f"
+  },
+  "traceId": "b1940f3c-9ced-481e-b6a4-ccec5322ccda",
+  "starttime": {
+    "$date": "2020-11-20T10:09:12.806Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T10:09:20.114Z"
+  },
+  "invocationInformation": {
+    "996e9db2-41ed-4247-a30b-5090656ba13f": {
+      "starttime": 1605866955970,
+      "endtime": 1605866960079,
+      "duration": 4205.36,
+      "billedDuration": 4300,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "0c5f8a0f-3bc0-44ff-8e14-33eab09976a3": {
+      "starttime": 1605866952806,
+      "endtime": 1605866960114,
+      "duration": 7328.58,
+      "billedDuration": 7400,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7308,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11700,
+  "totalDuration": 11533.94,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb7970fde89eb00076df764"
+  },
+  "traceId": "632639ac-9cb0-448f-9a47-1d64a8b46273",
+  "starttime": {
+    "$date": "2020-11-20T10:10:12.900Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T10:10:20.272Z"
+  },
+  "invocationInformation": {
+    "1d3165c8-3237-42de-917d-36dfc9213c72": {
+      "starttime": 1605867015952,
+      "endtime": 1605867020216,
+      "duration": 4284.08,
+      "billedDuration": 4300,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "c2573c69-a1ea-4c05-8d35-d3ab0bd2c3dc": {
+      "starttime": 1605867012900,
+      "endtime": 1605867020272,
+      "duration": 7393.31,
+      "billedDuration": 7400,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7372,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11700,
+  "totalDuration": 11677.39,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb7970fde89eb00076df765"
+  },
+  "traceId": "10e6997d-7f83-4967-9e76-11b61c7e90b2",
+  "starttime": {
+    "$date": "2020-11-20T10:11:12.854Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T10:11:19.993Z"
+  },
+  "invocationInformation": {
+    "91bf5575-7e4d-41d0-b7d7-30a198687837": {
+      "starttime": 1605867075801,
+      "endtime": 1605867079948,
+      "duration": 4169.64,
+      "billedDuration": 4200,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "814a8e55-5377-4c1f-a07f-153fb5531dc3": {
+      "starttime": 1605867072854,
+      "endtime": 1605867079993,
+      "duration": 7169.29,
+      "billedDuration": 7200,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7139,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11400,
+  "totalDuration": 11338.93,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb7970fde89eb00076df766"
+  },
+  "traceId": "49f592a5-aed0-4669-b509-eb3502727932",
+  "starttime": {
+    "$date": "2020-11-20T10:12:12.654Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T10:12:20.013Z"
+  },
+  "invocationInformation": {
+    "12254a2e-adbc-451c-a1a8-272dff0e923c": {
+      "starttime": 1605867135755,
+      "endtime": 1605867139986,
+      "duration": 4261.25,
+      "billedDuration": 4300,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "efb4ece2-4a8c-4132-b5a5-5f8bb70184ef": {
+      "starttime": 1605867132654,
+      "endtime": 1605867140013,
+      "duration": 7400.78,
+      "billedDuration": 7500,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7359,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11800,
+  "totalDuration": 11662.03,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb7970fde89eb00076df767"
+  },
+  "traceId": "6fe2772a-ced7-4f3e-99ef-6d04341158bd",
+  "starttime": {
+    "$date": "2020-11-20T10:13:12.759Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T10:13:20.012Z"
+  },
+  "invocationInformation": {
+    "a41e1d19-7bda-4316-a803-b873b8173fc0": {
+      "starttime": 1605867195842,
+      "endtime": 1605867199982,
+      "duration": 4172.43,
+      "billedDuration": 4200,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "cf643ce7-c311-4e5b-a93c-8f2060ce2351": {
+      "starttime": 1605867192759,
+      "endtime": 1605867200012,
+      "duration": 7278.84,
+      "billedDuration": 7300,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7253,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11500,
+  "totalDuration": 11451.27,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb7970fde89eb00076df768"
+  },
+  "traceId": "3d7051ee-3e74-45d2-85ee-fa9ce14e4153",
+  "starttime": {
+    "$date": "2020-11-20T10:14:13.003Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T10:14:20.394Z"
+  },
+  "invocationInformation": {
+    "f334451f-0de8-4732-85b4-81a288243712": {
+      "starttime": 1605867256117,
+      "endtime": 1605867260354,
+      "duration": 4261.05,
+      "billedDuration": 4300,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "818ebf70-9958-4a21-b06c-0ab6a3dce714": {
+      "starttime": 1605867253003,
+      "endtime": 1605867260394,
+      "duration": 7530.82,
+      "billedDuration": 7600,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7391,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11900,
+  "totalDuration": 11791.87,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb7983cde89eb00076df782"
+  },
+  "traceId": "5be8cee1-774a-4eba-bf29-ada229695d4b",
+  "starttime": {
+    "$date": "2020-11-20T10:15:12.706Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T10:15:19.974Z"
+  },
+  "invocationInformation": {
+    "321a8675-7fbf-41e1-8172-1638e52a0002": {
+      "starttime": 1605867315833,
+      "endtime": 1605867319929,
+      "duration": 4116.16,
+      "billedDuration": 4200,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "2d18cf33-c799-4a99-8bbe-ad444f099cce": {
+      "starttime": 1605867312706,
+      "endtime": 1605867319974,
+      "duration": 7311.16,
+      "billedDuration": 7400,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7268,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11600,
+  "totalDuration": 11427.32,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb7983cde89eb00076df783"
+  },
+  "traceId": "f0b48991-18b3-4062-af2b-91e767fb7cc0",
+  "starttime": {
+    "$date": "2020-11-20T10:16:12.777Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T10:16:20.094Z"
+  },
+  "invocationInformation": {
+    "25b6bdd5-8a3b-4ac9-9de9-0bb0e209af01": {
+      "starttime": 1605867375859,
+      "endtime": 1605867380050,
+      "duration": 4217.43,
+      "billedDuration": 4300,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "e114e5ca-d079-4f65-b575-3cbfb0be3284": {
+      "starttime": 1605867372777,
+      "endtime": 1605867380094,
+      "duration": 7340.98,
+      "billedDuration": 7400,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7317,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11700,
+  "totalDuration": 11558.41,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb7983cde89eb00076df784"
+  },
+  "traceId": "5d104c95-741c-4de5-83f8-d0201cc67a2b",
+  "starttime": {
+    "$date": "2020-11-20T10:17:12.945Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T10:17:20.234Z"
+  },
+  "invocationInformation": {
+    "1db76625-47ca-4d5f-81bd-86c1966a8e19": {
+      "starttime": 1605867436020,
+      "endtime": 1605867440199,
+      "duration": 4210.06,
+      "billedDuration": 4300,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "4ce2d957-bf44-4795-b770-0d49f4d3530a": {
+      "starttime": 1605867432945,
+      "endtime": 1605867440234,
+      "duration": 7331.41,
+      "billedDuration": 7400,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7289,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11700,
+  "totalDuration": 11541.47,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb7983cde89eb00076df785"
+  },
+  "traceId": "0f65f9eb-4843-4c97-a500-5af2f01e3dad",
+  "starttime": {
+    "$date": "2020-11-20T10:18:12.693Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T10:18:20.235Z"
+  },
+  "invocationInformation": {
+    "7f794222-9a77-4c84-b4fe-5a9196bf16b6": {
+      "starttime": 1605867495916,
+      "endtime": 1605867500191,
+      "duration": 4301.61,
+      "billedDuration": 4400,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "1844011c-00cb-4622-9a05-fc726252f69a": {
+      "starttime": 1605867492693,
+      "endtime": 1605867500235,
+      "duration": 7567.17,
+      "billedDuration": 7600,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7542,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 12000,
+  "totalDuration": 11868.78,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb7983cde89eb00076df786"
+  },
+  "traceId": "f1d2f238-472b-4229-a5b9-f1b92dd5c4ec",
+  "starttime": {
+    "$date": "2020-11-20T10:19:12.780Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T10:19:19.995Z"
+  },
+  "invocationInformation": {
+    "e18fc1c4-02dd-4371-a602-d419daf59ffa": {
+      "starttime": 1605867555759,
+      "endtime": 1605867559962,
+      "duration": 4231.88,
+      "billedDuration": 4300,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "a3d3ffce-33ce-49af-8a61-8a5f19979ba1": {
+      "starttime": 1605867552780,
+      "endtime": 1605867559995,
+      "duration": 7238.51,
+      "billedDuration": 7300,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7215,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11600,
+  "totalDuration": 11470.39,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb79966de89eb00076df7a5"
+  },
+  "traceId": "76f535eb-c201-400f-bfb2-48f1afe1f5a6",
+  "starttime": {
+    "$date": "2020-11-20T10:20:12.833Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T10:20:20.077Z"
+  },
+  "invocationInformation": {
+    "4e51174a-d220-4083-814c-b7f72c06ff7d": {
+      "starttime": 1605867615895,
+      "endtime": 1605867620034,
+      "duration": 4162.07,
+      "billedDuration": 4200,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "aa1c3460-301c-44a4-9021-f4fa2be9958b": {
+      "starttime": 1605867612833,
+      "endtime": 1605867620077,
+      "duration": 7280.81,
+      "billedDuration": 7300,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7244,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11500,
+  "totalDuration": 11442.88,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb79966de89eb00076df7a6"
+  },
+  "traceId": "f1f3eb97-59fa-4327-b273-33dfcd7a3100",
+  "starttime": {
+    "$date": "2020-11-20T10:21:12.935Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T10:21:20.055Z"
+  },
+  "invocationInformation": {
+    "5981e616-95e0-4f0e-9e8a-c69b06122648": {
+      "starttime": 1605867675985,
+      "endtime": 1605867680025,
+      "duration": 4063.17,
+      "billedDuration": 4100,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "5e8a6ba9-29f7-4dda-b5dc-58bc1ea48545": {
+      "starttime": 1605867672935,
+      "endtime": 1605867680055,
+      "duration": 7146.65,
+      "billedDuration": 7200,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7120,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11300,
+  "totalDuration": 11209.82,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb79966de89eb00076df7a7"
+  },
+  "traceId": "2817c39f-12b2-400a-95e7-703a7ed711b2",
+  "starttime": {
+    "$date": "2020-11-20T10:22:12.956Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T10:22:20.316Z"
+  },
+  "invocationInformation": {
+    "88280eaa-e5c7-4e3d-8760-fff85067a6f7": {
+      "starttime": 1605867736053,
+      "endtime": 1605867740290,
+      "duration": 4259.91,
+      "billedDuration": 4300,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "708c1222-c7ac-4b01-adcd-a99137674168": {
+      "starttime": 1605867732956,
+      "endtime": 1605867740316,
+      "duration": 7400.38,
+      "billedDuration": 7500,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7360,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11800,
+  "totalDuration": 11660.29,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb79966de89eb00076df7a8"
+  },
+  "traceId": "aa014880-2990-49d4-9158-c3742d4e3039",
+  "starttime": {
+    "$date": "2020-11-20T10:23:12.855Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T10:23:20.084Z"
+  },
+  "invocationInformation": {
+    "84acb3f5-0c0d-43b1-9d95-0022dbb02fd4": {
+      "starttime": 1605867795908,
+      "endtime": 1605867800047,
+      "duration": 4163.15,
+      "billedDuration": 4200,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "c55b224b-a554-463b-a09d-5361778eb0e1": {
+      "starttime": 1605867792855,
+      "endtime": 1605867800084,
+      "duration": 7301.36,
+      "billedDuration": 7400,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7229,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11600,
+  "totalDuration": 11464.51,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb79966de89eb00076df7a9"
+  },
+  "traceId": "af0a21d1-6ba1-422a-970a-df2f530443c9",
+  "starttime": {
+    "$date": "2020-11-20T10:24:12.818Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T10:24:20.056Z"
+  },
+  "invocationInformation": {
+    "d695b4a1-5c90-4619-985e-26ce5346eacc": {
+      "starttime": 1605867855859,
+      "endtime": 1605867860024,
+      "duration": 4189.61,
+      "billedDuration": 4200,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    },
+    "98b13d22-c166-4786-a7ca-4b53dec20343": {
+      "starttime": 1605867852818,
+      "endtime": 1605867860056,
+      "duration": 7259.97,
+      "billedDuration": 7300,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    }
+  },
+  "runtime": 7238,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11500,
+  "totalDuration": 11449.58,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb79a93de89eb00076df7d2"
+  },
+  "traceId": "e5aef9b0-93a8-4f63-be9b-c870a23bdc4a",
+  "starttime": {
+    "$date": "2020-11-20T10:25:12.866Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T10:25:20.156Z"
+  },
+  "invocationInformation": {
+    "de1c4e13-a458-4f41-adb3-058a0d6b6de9": {
+      "starttime": 1605867912866,
+      "endtime": 1605867920156,
+      "duration": 7314.22,
+      "billedDuration": 7400,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    },
+    "62039339-b005-4d2e-ac04-6c520910fed6": {
+      "starttime": 1605867915942,
+      "endtime": 1605867920083,
+      "duration": 4171.88,
+      "billedDuration": 4200,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    }
+  },
+  "runtime": 7290,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11600,
+  "totalDuration": 11486.1,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb79a93de89eb00076df7d3"
+  },
+  "traceId": "a1395535-c2b8-4319-8dd2-8d9481334cf9",
+  "starttime": {
+    "$date": "2020-11-20T10:26:12.676Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T10:26:19.977Z"
+  },
+  "invocationInformation": {
+    "f6b4e113-c33f-43b4-b113-19537fe46549": {
+      "starttime": 1605867972676,
+      "endtime": 1605867979977,
+      "duration": 7369.73,
+      "billedDuration": 7400,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    },
+    "bf3439ab-c51c-4722-a8c2-f49fc3518c69": {
+      "starttime": 1605867975746,
+      "endtime": 1605867979933,
+      "duration": 4208.06,
+      "billedDuration": 4300,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    }
+  },
+  "runtime": 7301,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11700,
+  "totalDuration": 11577.79,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb79a93de89eb00076df7d4"
+  },
+  "traceId": "111d7e0e-47e8-4db5-ac5c-addb816753fe",
+  "starttime": {
+    "$date": "2020-11-20T10:27:13.069Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T10:27:20.457Z"
+  },
+  "invocationInformation": {
+    "d79250a3-ca31-41fb-981c-e27ab5861ab2": {
+      "starttime": 1605868033069,
+      "endtime": 1605868040457,
+      "duration": 7409.75,
+      "billedDuration": 7500,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    },
+    "014ee554-e44a-4b67-8006-07ee493f4cea": {
+      "starttime": 1605868036100,
+      "endtime": 1605868040430,
+      "duration": 4352.73,
+      "billedDuration": 4400,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    }
+  },
+  "runtime": 7388,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11900,
+  "totalDuration": 11762.48,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb79a93de89eb00076df7d5"
+  },
+  "traceId": "bf06b991-56b9-44b7-b642-20290a213ecd",
+  "starttime": {
+    "$date": "2020-11-20T10:28:12.763Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T10:28:20.119Z"
+  },
+  "invocationInformation": {
+    "e8158244-9ab1-4449-93cf-26d6159031dc": {
+      "starttime": 1605868092763,
+      "endtime": 1605868100119,
+      "duration": 7395.21,
+      "billedDuration": 7400,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    },
+    "f77416a5-6981-4bff-8fcb-7ea063c28de2": {
+      "starttime": 1605868095938,
+      "endtime": 1605868100073,
+      "duration": 4163.12,
+      "billedDuration": 4200,
+      "memorySize": 320,
+      "memoryUsed": 282,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    }
+  },
+  "runtime": 7356,
+  "totalMemoryUsed": 602,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11600,
+  "totalDuration": 11558.33,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+},{
+  "_id": {
+    "$oid": "5fb79a93de89eb00076df7d6"
+  },
+  "traceId": "fdecb6aa-42ac-4d5d-9ca5-d96c4cb165e3",
+  "starttime": {
+    "$date": "2020-11-20T10:29:12.781Z"
+  },
+  "endtime": {
+    "$date": "2020-11-20T10:29:20.077Z"
+  },
+  "invocationInformation": {
+    "5e5192cd-6198-4ac6-9299-a6d1c5dbf3a6": {
+      "starttime": 1605868152781,
+      "endtime": 1605868160077,
+      "duration": 7317.38,
+      "billedDuration": 7400,
+      "memorySize": 320,
+      "memoryUsed": 320,
+      "coldStart": null,
+      "lambdaName": "handler0"
+    },
+    "e5a3dd93-a76e-4bc2-9164-f1632685bc7b": {
+      "starttime": 1605868155847,
+      "endtime": 1605868160018,
+      "duration": 4192.76,
+      "billedDuration": 4200,
+      "memorySize": 320,
+      "memoryUsed": 286,
+      "coldStart": null,
+      "lambdaName": "handler1"
+    }
+  },
+  "runtime": 7296,
+  "totalMemoryUsed": 606,
+  "totalMemoryAllocated": 640,
+  "totalBilledDuration": 11600,
+  "totalDuration": 11510.14,
+  "lambdasCount": 2,
+  "totalColdStartTime": 0
+}]
