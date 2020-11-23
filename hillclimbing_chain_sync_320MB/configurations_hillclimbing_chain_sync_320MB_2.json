@@ -1,192 +1,81 @@
-[{
-  "_id": {
-    "$oid": "5fb70ddfded9cd000824686d"
-  },
-  "fusionConfig": [
-    [
-      "blur"
-    ],
-    [
-      "saveS3"
-    ],
-    [
-      "screenshot"
-    ]
-  ],
-  "originalConfig": [
-    {
-      "entry": "handler0",
-      "lambdas": [
-        "screenshot"
-      ]
+[
+  {
+    "_id": {
+      "$oid": "5fb70ddfded9cd000824686d"
     },
-    {
-      "entry": "handler1",
-      "lambdas": [
-        "blur"
-      ]
-    },
-    {
-      "entry": "handler2",
-      "lambdas": [
-        "saveS3"
-      ]
-    }
-  ],
-  "averageDuration": 8476.142857142857,
-  "date": {
-    "$date": "2020-11-20T00:29:19.550Z"
-  }
-},{
-  "_id": {
-    "$oid": "5fb714e77260110009a361f2"
-  },
-  "fusionConfig": [
-    [
-      "blur"
+    "fusionConfig": [["blur"], ["saveS3"], ["screenshot"]],
+    "originalConfig": [
+      {
+        "entry": "handler0",
+        "lambdas": ["screenshot"]
+      },
+      {
+        "entry": "handler1",
+        "lambdas": ["blur"]
+      },
+      {
+        "entry": "handler2",
+        "lambdas": ["saveS3"]
+      }
     ],
-    [
-      "saveS3",
-      "screenshot"
-    ]
-  ],
-  "originalConfig": [
-    {
-      "entry": "handler0",
-      "lambdas": [
-        "saveS3",
-        "screenshot"
-      ]
+    "averageDuration": 8476.142857142857,
+    "date": {
+      "$date": "2020-11-20T00:29:19.550Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5fb714e77260110009a361f2"
     },
-    {
-      "entry": "handler1",
-      "lambdas": [
-        "blur"
-      ]
-    }
-  ],
-  "averageDuration": 7358.95,
-  "date": {
-    "$date": "2020-11-20T00:59:19.515Z"
-  }
-},{
-  "_id": {
-    "$oid": "5fb71bef3afb5c000895c25e"
-  },
-  "fusionConfig": [
-    [
-      "blur",
-      "saveS3",
-      "screenshot"
-    ]
-  ],
-  "originalConfig": [
-    {
-      "entry": "handler0",
-      "lambdas": [
-        "blur",
-        "saveS3",
-        "screenshot"
-      ]
-    }
-  ],
-  "date": {
-    "$date": "2020-11-20T01:29:19.859Z"
-  }
-},{
-  "_id": {
-    "$oid": "5fb722f7079e100008364ea0"
-  },
-  "fusionConfig": [
-    [
-      "blur"
+    "fusionConfig": [["blur"], ["saveS3", "screenshot"]],
+    "originalConfig": [
+      {
+        "entry": "handler0",
+        "lambdas": ["saveS3", "screenshot"]
+      },
+      {
+        "entry": "handler1",
+        "lambdas": ["blur"]
+      }
     ],
-    [
-      "saveS3",
-      "screenshot"
-    ]
-  ],
-  "originalConfig": [
-    {
-      "entry": "handler0",
-      "lambdas": [
-        "saveS3",
-        "screenshot"
-      ]
-    },
-    {
-      "entry": "handler1",
-      "lambdas": [
-        "blur"
-      ]
+    "averageDuration": 7358.95,
+    "date": {
+      "$date": "2020-11-20T00:59:19.515Z"
     }
-  ],
-  "averageDuration": 7240.8,
-  "date": {
-    "$date": "2020-11-20T01:59:19.259Z"
-  }
-},{
-  "_id": {
-    "$oid": "5fb7233c2846fb00088fca6d"
   },
-  "fusionConfig": [
-    [
-      "blur"
-    ],
-    [
-      "saveS3",
-      "screenshot"
-    ]
-  ],
-  "originalConfig": [
-    {
-      "entry": "handler0",
-      "lambdas": [
-        "saveS3",
-        "screenshot"
-      ]
+  {
+    "_id": {
+      "$oid": "5fb71bef3afb5c000895c25e"
     },
-    {
-      "entry": "handler1",
-      "lambdas": [
-        "blur"
-      ]
+    "fusionConfig": [["blur", "saveS3", "screenshot"]],
+    "originalConfig": [
+      {
+        "entry": "handler0",
+        "lambdas": ["blur", "saveS3", "screenshot"]
+      }
+    ],
+    "date": {
+      "$date": "2020-11-20T01:29:19.859Z"
     }
-  ],
-  "averageDuration": 7217.166666666667,
-  "date": {
-    "$date": "2020-11-20T02:00:28.444Z"
-  }
-},{
-  "_id": {
-    "$oid": "5fb723b3c2f6ee000907c54f"
   },
-  "fusionConfig": [
-    [
-      "blur"
-    ],
-    [
-      "saveS3",
-      "screenshot"
-    ]
-  ],
-  "originalConfig": [
-    {
-      "entry": "handler0",
-      "lambdas": [
-        "saveS3",
-        "screenshot"
-      ]
+  {
+    "_id": {
+      "$oid": "5fb722f7079e100008364ea0"
     },
-    {
-      "entry": "handler1",
-      "lambdas": [
-        "blur"
-      ]
+    "fusionConfig": [["blur"], ["saveS3", "screenshot"]],
+    "originalConfig": [
+      {
+        "entry": "handler0",
+        "lambdas": ["saveS3", "screenshot"]
+      },
+      {
+        "entry": "handler1",
+        "lambdas": ["blur"]
+      }
+    ],
+    "averageDuration": 7240.8,
+    "date": {
+      "$date": "2020-11-20T01:59:19.259Z"
     }
-  ],
-  "averageDuration": 7228.227272727273,
-  "date": {
-    "$date": "2020-11-20T02:02:27.621Z"
   }
-}]
+]

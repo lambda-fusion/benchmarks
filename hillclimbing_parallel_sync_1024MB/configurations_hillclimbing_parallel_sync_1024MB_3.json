@@ -1,724 +1,429 @@
-[{
-  "_id": {
-    "$oid": "5fb389ee3463720008a55bff"
-  },
-  "fusionConfig": [
-    [
-      "blur"
-    ],
-    [
-      "flip"
-    ],
-    [
-      "saveS3"
-    ],
-    [
-      "screenshot"
-    ]
-  ],
-  "originalConfig": [
-    {
-      "entry": "handler0",
-      "lambdas": [
-        "screenshot"
-      ]
+[
+  {
+    "_id": {
+      "$oid": "5fb389ee3463720008a55bff"
     },
-    {
-      "entry": "handler1",
-      "lambdas": [
-        "blur"
-      ]
-    },
-    {
-      "entry": "handler2",
-      "lambdas": [
-        "flip"
-      ]
-    },
-    {
-      "entry": "handler3",
-      "lambdas": [
-        "saveS3"
-      ]
+    "fusionConfig": [["blur"], ["flip"], ["saveS3"], ["screenshot"]],
+    "originalConfig": [
+      {
+        "entry": "handler0",
+        "lambdas": ["screenshot"]
+      },
+      {
+        "entry": "handler1",
+        "lambdas": ["blur"]
+      },
+      {
+        "entry": "handler2",
+        "lambdas": ["flip"]
+      },
+      {
+        "entry": "handler3",
+        "lambdas": ["saveS3"]
+      }
+    ],
+    "averageDuration": 3494.65,
+    "date": {
+      "$date": "2020-11-17T08:29:34.148Z"
     }
-  ],
-  "averageDuration": 3494.65,
-  "date": {
-    "$date": "2020-11-17T08:29:34.148Z"
-  }
-},{
-  "_id": {
-    "$oid": "5fb390f69f656900092d49e3"
   },
-  "fusionConfig": [
-    [
-      "blur",
-      "screenshot"
-    ],
-    [
-      "flip"
-    ],
-    [
-      "saveS3"
-    ]
-  ],
-  "originalConfig": [
-    {
-      "entry": "handler0",
-      "lambdas": [
-        "blur",
-        "screenshot"
-      ]
+  {
+    "_id": {
+      "$oid": "5fb390f69f656900092d49e3"
     },
-    {
-      "entry": "handler1",
-      "lambdas": [
-        "flip"
-      ]
-    },
-    {
-      "entry": "handler2",
-      "lambdas": [
-        "saveS3"
-      ]
+    "fusionConfig": [["blur", "screenshot"], ["flip"], ["saveS3"]],
+    "originalConfig": [
+      {
+        "entry": "handler0",
+        "lambdas": ["blur", "screenshot"]
+      },
+      {
+        "entry": "handler1",
+        "lambdas": ["flip"]
+      },
+      {
+        "entry": "handler2",
+        "lambdas": ["saveS3"]
+      }
+    ],
+    "averageDuration": 3502.7,
+    "date": {
+      "$date": "2020-11-17T08:59:34.128Z"
     }
-  ],
-  "averageDuration": 3502.7,
-  "date": {
-    "$date": "2020-11-17T08:59:34.128Z"
-  }
-},{
-  "_id": {
-    "$oid": "5fb397fea045330008173537"
   },
-  "fusionConfig": [
-    [
-      "blur"
-    ],
-    [
-      "flip"
-    ],
-    [
-      "saveS3"
-    ],
-    [
-      "screenshot"
-    ]
-  ],
-  "originalConfig": [
-    {
-      "entry": "handler0",
-      "lambdas": [
-        "screenshot"
-      ]
+  {
+    "_id": {
+      "$oid": "5fb397fea045330008173537"
     },
-    {
-      "entry": "handler1",
-      "lambdas": [
-        "blur"
-      ]
-    },
-    {
-      "entry": "handler2",
-      "lambdas": [
-        "flip"
-      ]
-    },
-    {
-      "entry": "handler3",
-      "lambdas": [
-        "saveS3"
-      ]
+    "fusionConfig": [["blur"], ["flip"], ["saveS3"], ["screenshot"]],
+    "originalConfig": [
+      {
+        "entry": "handler0",
+        "lambdas": ["screenshot"]
+      },
+      {
+        "entry": "handler1",
+        "lambdas": ["blur"]
+      },
+      {
+        "entry": "handler2",
+        "lambdas": ["flip"]
+      },
+      {
+        "entry": "handler3",
+        "lambdas": ["saveS3"]
+      }
+    ],
+    "averageDuration": 3498.3,
+    "date": {
+      "$date": "2020-11-17T09:29:34.556Z"
     }
-  ],
-  "averageDuration": 3498.3,
-  "date": {
-    "$date": "2020-11-17T09:29:34.556Z"
-  }
-},{
-  "_id": {
-    "$oid": "5fb39f06d3a5d10008d6f0a3"
   },
-  "fusionConfig": [
-    [
-      "blur"
-    ],
-    [
-      "flip"
-    ],
-    [
-      "saveS3",
-      "screenshot"
-    ]
-  ],
-  "originalConfig": [
-    {
-      "entry": "handler0",
-      "lambdas": [
-        "blur"
-      ]
+  {
+    "_id": {
+      "$oid": "5fb39f06d3a5d10008d6f0a3"
     },
-    {
-      "entry": "handler1",
-      "lambdas": [
-        "flip"
-      ]
-    },
-    {
-      "entry": "handler2",
-      "lambdas": [
-        "saveS3",
-        "screenshot"
-      ]
+    "fusionConfig": [["blur"], ["flip"], ["saveS3", "screenshot"]],
+    "originalConfig": [
+      {
+        "entry": "handler0",
+        "lambdas": ["blur"]
+      },
+      {
+        "entry": "handler1",
+        "lambdas": ["flip"]
+      },
+      {
+        "entry": "handler2",
+        "lambdas": ["saveS3", "screenshot"]
+      }
+    ],
+    "averageDuration": 3466.85,
+    "date": {
+      "$date": "2020-11-17T09:59:34.109Z"
     }
-  ],
-  "averageDuration": 3466.85,
-  "date": {
-    "$date": "2020-11-17T09:59:34.109Z"
-  }
-},{
-  "_id": {
-    "$oid": "5fb3a60e384de10008334305"
   },
-  "fusionConfig": [
-    [
-      "blur"
-    ],
-    [
-      "flip",
-      "saveS3",
-      "screenshot"
-    ]
-  ],
-  "originalConfig": [
-    {
-      "entry": "handler0",
-      "lambdas": [
-        "blur"
-      ]
+  {
+    "_id": {
+      "$oid": "5fb3a60e384de10008334305"
     },
-    {
-      "entry": "handler1",
-      "lambdas": [
-        "flip",
-        "saveS3",
-        "screenshot"
-      ]
+    "fusionConfig": [["blur"], ["flip", "saveS3", "screenshot"]],
+    "originalConfig": [
+      {
+        "entry": "handler0",
+        "lambdas": ["blur"]
+      },
+      {
+        "entry": "handler1",
+        "lambdas": ["flip", "saveS3", "screenshot"]
+      }
+    ],
+    "averageDuration": 3381.05,
+    "date": {
+      "$date": "2020-11-17T10:29:34.241Z"
     }
-  ],
-  "averageDuration": 3381.05,
-  "date": {
-    "$date": "2020-11-17T10:29:34.241Z"
-  }
-},{
-  "_id": {
-    "$oid": "5fb3ad1603f0400006e79bfe"
   },
-  "fusionConfig": [
-    [
-      "blur"
-    ],
-    [
-      "flip",
-      "screenshot"
-    ],
-    [
-      "saveS3"
-    ]
-  ],
-  "originalConfig": [
-    {
-      "entry": "handler0",
-      "lambdas": [
-        "blur"
-      ]
+  {
+    "_id": {
+      "$oid": "5fb3ad1603f0400006e79bfe"
     },
-    {
-      "entry": "handler1",
-      "lambdas": [
-        "flip",
-        "screenshot"
-      ]
-    },
-    {
-      "lambdas": [
-        "saveS3"
-      ],
-      "entry": "handler2"
+    "fusionConfig": [["blur"], ["flip", "screenshot"], ["saveS3"]],
+    "originalConfig": [
+      {
+        "entry": "handler0",
+        "lambdas": ["blur"]
+      },
+      {
+        "entry": "handler1",
+        "lambdas": ["flip", "screenshot"]
+      },
+      {
+        "lambdas": ["saveS3"],
+        "entry": "handler2"
+      }
+    ],
+    "averageDuration": 3494.05,
+    "date": {
+      "$date": "2020-11-17T10:59:34.512Z"
     }
-  ],
-  "averageDuration": 3494.05,
-  "date": {
-    "$date": "2020-11-17T10:59:34.512Z"
-  }
-},{
-  "_id": {
-    "$oid": "5fb3b41e7aba2d00087ecdb1"
   },
-  "fusionConfig": [
-    [
-      "blur"
-    ],
-    [
-      "flip",
-      "saveS3",
-      "screenshot"
-    ]
-  ],
-  "originalConfig": [
-    {
-      "entry": "handler0",
-      "lambdas": [
-        "blur"
-      ]
+  {
+    "_id": {
+      "$oid": "5fb3b41e7aba2d00087ecdb1"
     },
-    {
-      "entry": "handler1",
-      "lambdas": [
-        "flip",
-        "saveS3",
-        "screenshot"
-      ]
+    "fusionConfig": [["blur"], ["flip", "saveS3", "screenshot"]],
+    "originalConfig": [
+      {
+        "entry": "handler0",
+        "lambdas": ["blur"]
+      },
+      {
+        "entry": "handler1",
+        "lambdas": ["flip", "saveS3", "screenshot"]
+      }
+    ],
+    "averageDuration": 3424.15,
+    "date": {
+      "$date": "2020-11-17T11:29:34.077Z"
     }
-  ],
-  "averageDuration": 3424.15,
-  "date": {
-    "$date": "2020-11-17T11:29:34.077Z"
-  }
-},{
-  "_id": {
-    "$oid": "5fb3bb2687d63c000964d3e0"
   },
-  "fusionConfig": [
-    [
-      "blur"
-    ],
-    [
-      "flip",
-      "saveS3"
-    ],
-    [
-      "screenshot"
-    ]
-  ],
-  "originalConfig": [
-    {
-      "entry": "handler0",
-      "lambdas": [
-        "blur"
-      ]
+  {
+    "_id": {
+      "$oid": "5fb3bb2687d63c000964d3e0"
     },
-    {
-      "entry": "handler1",
-      "lambdas": [
-        "flip",
-        "saveS3"
-      ]
-    },
-    {
-      "lambdas": [
-        "screenshot"
-      ],
-      "entry": "handler2"
+    "fusionConfig": [["blur"], ["flip", "saveS3"], ["screenshot"]],
+    "originalConfig": [
+      {
+        "entry": "handler0",
+        "lambdas": ["blur"]
+      },
+      {
+        "entry": "handler1",
+        "lambdas": ["flip", "saveS3"]
+      },
+      {
+        "lambdas": ["screenshot"],
+        "entry": "handler2"
+      }
+    ],
+    "averageDuration": 3405.75,
+    "date": {
+      "$date": "2020-11-17T11:59:34.822Z"
     }
-  ],
-  "averageDuration": 3405.75,
-  "date": {
-    "$date": "2020-11-17T11:59:34.822Z"
-  }
-},{
-  "_id": {
-    "$oid": "5fb3c22edc5b3600085207d7"
   },
-  "fusionConfig": [
-    [
-      "blur",
-      "screenshot"
-    ],
-    [
-      "flip",
-      "saveS3"
-    ]
-  ],
-  "originalConfig": [
-    {
-      "entry": "handler0",
-      "lambdas": [
-        "flip",
-        "saveS3"
-      ]
+  {
+    "_id": {
+      "$oid": "5fb3c22edc5b3600085207d7"
     },
-    {
-      "lambdas": [
-        "blur",
-        "screenshot"
-      ],
-      "entry": "handler1"
+    "fusionConfig": [
+      ["blur", "screenshot"],
+      ["flip", "saveS3"]
+    ],
+    "originalConfig": [
+      {
+        "entry": "handler0",
+        "lambdas": ["flip", "saveS3"]
+      },
+      {
+        "lambdas": ["blur", "screenshot"],
+        "entry": "handler1"
+      }
+    ],
+    "averageDuration": 3436.65,
+    "date": {
+      "$date": "2020-11-17T12:29:34.465Z"
     }
-  ],
-  "averageDuration": 3436.65,
-  "date": {
-    "$date": "2020-11-17T12:29:34.465Z"
-  }
-},{
-  "_id": {
-    "$oid": "5fb3c93640e3c900083449c7"
   },
-  "fusionConfig": [
-    [
-      "blur"
-    ],
-    [
-      "flip",
-      "saveS3"
-    ],
-    [
-      "screenshot"
-    ]
-  ],
-  "originalConfig": [
-    {
-      "entry": "handler0",
-      "lambdas": [
-        "blur"
-      ]
+  {
+    "_id": {
+      "$oid": "5fb3c93640e3c900083449c7"
     },
-    {
-      "entry": "handler1",
-      "lambdas": [
-        "flip",
-        "saveS3"
-      ]
-    },
-    {
-      "lambdas": [
-        "screenshot"
-      ],
-      "entry": "handler2"
+    "fusionConfig": [["blur"], ["flip", "saveS3"], ["screenshot"]],
+    "originalConfig": [
+      {
+        "entry": "handler0",
+        "lambdas": ["blur"]
+      },
+      {
+        "entry": "handler1",
+        "lambdas": ["flip", "saveS3"]
+      },
+      {
+        "lambdas": ["screenshot"],
+        "entry": "handler2"
+      }
+    ],
+    "averageDuration": 3402.15,
+    "date": {
+      "$date": "2020-11-17T12:59:34.437Z"
     }
-  ],
-  "averageDuration": 3402.15,
-  "date": {
-    "$date": "2020-11-17T12:59:34.437Z"
-  }
-},{
-  "_id": {
-    "$oid": "5fb3d03ed23c4300089c4763"
   },
-  "fusionConfig": [
-    [
-      "blur",
-      "flip",
-      "saveS3"
-    ],
-    [
-      "screenshot"
-    ]
-  ],
-  "originalConfig": [
-    {
-      "entry": "handler0",
-      "lambdas": [
-        "blur",
-        "flip",
-        "saveS3"
-      ]
+  {
+    "_id": {
+      "$oid": "5fb3d03ed23c4300089c4763"
     },
-    {
-      "lambdas": [
-        "screenshot"
-      ],
-      "entry": "handler1"
+    "fusionConfig": [["blur", "flip", "saveS3"], ["screenshot"]],
+    "originalConfig": [
+      {
+        "entry": "handler0",
+        "lambdas": ["blur", "flip", "saveS3"]
+      },
+      {
+        "lambdas": ["screenshot"],
+        "entry": "handler1"
+      }
+    ],
+    "averageDuration": 3360.8,
+    "date": {
+      "$date": "2020-11-17T13:29:34.498Z"
     }
-  ],
-  "averageDuration": 3360.8,
-  "date": {
-    "$date": "2020-11-17T13:29:34.498Z"
-  }
-},{
-  "_id": {
-    "$oid": "5fb3d746f5266200086edff4"
   },
-  "fusionConfig": [
-    [
-      "blur",
-      "flip",
-      "saveS3",
-      "screenshot"
-    ]
-  ],
-  "originalConfig": [
-    {
-      "entry": "handler0",
-      "lambdas": [
-        "blur",
-        "flip",
-        "saveS3",
-        "screenshot"
-      ]
+  {
+    "_id": {
+      "$oid": "5fb3d746f5266200086edff4"
+    },
+    "fusionConfig": [["blur", "flip", "saveS3", "screenshot"]],
+    "originalConfig": [
+      {
+        "entry": "handler0",
+        "lambdas": ["blur", "flip", "saveS3", "screenshot"]
+      }
+    ],
+    "averageDuration": 4699.45,
+    "date": {
+      "$date": "2020-11-17T13:59:34.061Z"
     }
-  ],
-  "averageDuration": 4699.45,
-  "date": {
-    "$date": "2020-11-17T13:59:34.061Z"
-  }
-},{
-  "_id": {
-    "$oid": "5fb3de4ec6a43300083ffc62"
   },
-  "fusionConfig": [
-    [
-      "blur",
-      "flip",
-      "saveS3"
-    ],
-    [
-      "screenshot"
-    ]
-  ],
-  "originalConfig": [
-    {
-      "entry": "handler0",
-      "lambdas": [
-        "blur",
-        "flip",
-        "saveS3"
-      ]
+  {
+    "_id": {
+      "$oid": "5fb3de4ec6a43300083ffc62"
     },
-    {
-      "lambdas": [
-        "screenshot"
-      ],
-      "entry": "handler1"
+    "fusionConfig": [["blur", "flip", "saveS3"], ["screenshot"]],
+    "originalConfig": [
+      {
+        "entry": "handler0",
+        "lambdas": ["blur", "flip", "saveS3"]
+      },
+      {
+        "lambdas": ["screenshot"],
+        "entry": "handler1"
+      }
+    ],
+    "averageDuration": 3431.9473684210525,
+    "date": {
+      "$date": "2020-11-17T14:29:34.284Z"
     }
-  ],
-  "averageDuration": 3431.9473684210525,
-  "date": {
-    "$date": "2020-11-17T14:29:34.284Z"
-  }
-},{
-  "_id": {
-    "$oid": "5fb3e55684a1ac0008f09643"
   },
-  "fusionConfig": [
-    [
-      "blur",
-      "saveS3"
-    ],
-    [
-      "flip"
-    ],
-    [
-      "screenshot"
-    ]
-  ],
-  "originalConfig": [
-    {
-      "entry": "handler0",
-      "lambdas": [
-        "blur",
-        "saveS3"
-      ]
+  {
+    "_id": {
+      "$oid": "5fb3e55684a1ac0008f09643"
     },
-    {
-      "lambdas": [
-        "screenshot"
-      ],
-      "entry": "handler1"
-    },
-    {
-      "lambdas": [
-        "flip"
-      ],
-      "entry": "handler2"
+    "fusionConfig": [["blur", "saveS3"], ["flip"], ["screenshot"]],
+    "originalConfig": [
+      {
+        "entry": "handler0",
+        "lambdas": ["blur", "saveS3"]
+      },
+      {
+        "lambdas": ["screenshot"],
+        "entry": "handler1"
+      },
+      {
+        "lambdas": ["flip"],
+        "entry": "handler2"
+      }
+    ],
+    "averageDuration": 3492.7894736842104,
+    "date": {
+      "$date": "2020-11-17T14:59:34.398Z"
     }
-  ],
-  "averageDuration": 3492.7894736842104,
-  "date": {
-    "$date": "2020-11-17T14:59:34.398Z"
-  }
-},{
-  "_id": {
-    "$oid": "5fb3ec5ee204450009e91e8b"
   },
-  "fusionConfig": [
-    [
-      "blur",
-      "flip",
-      "saveS3"
-    ],
-    [
-      "screenshot"
-    ]
-  ],
-  "originalConfig": [
-    {
-      "entry": "handler0",
-      "lambdas": [
-        "blur",
-        "flip",
-        "saveS3"
-      ]
+  {
+    "_id": {
+      "$oid": "5fb3ec5ee204450009e91e8b"
     },
-    {
-      "lambdas": [
-        "screenshot"
-      ],
-      "entry": "handler1"
+    "fusionConfig": [["blur", "flip", "saveS3"], ["screenshot"]],
+    "originalConfig": [
+      {
+        "entry": "handler0",
+        "lambdas": ["blur", "flip", "saveS3"]
+      },
+      {
+        "lambdas": ["screenshot"],
+        "entry": "handler1"
+      }
+    ],
+    "averageDuration": 3358.7894736842104,
+    "date": {
+      "$date": "2020-11-17T15:29:34.593Z"
     }
-  ],
-  "averageDuration": 3358.7894736842104,
-  "date": {
-    "$date": "2020-11-17T15:29:34.593Z"
-  }
-},{
-  "_id": {
-    "$oid": "5fb3f3660954ce000806c8ba"
   },
-  "fusionConfig": [
-    [
-      "blur",
-      "flip"
-    ],
-    [
-      "saveS3"
-    ],
-    [
-      "screenshot"
-    ]
-  ],
-  "originalConfig": [
-    {
-      "entry": "handler0",
-      "lambdas": [
-        "blur",
-        "flip"
-      ]
+  {
+    "_id": {
+      "$oid": "5fb3f3660954ce000806c8ba"
     },
-    {
-      "lambdas": [
-        "screenshot"
-      ],
-      "entry": "handler1"
-    },
-    {
-      "lambdas": [
-        "saveS3"
-      ],
-      "entry": "handler2"
+    "fusionConfig": [["blur", "flip"], ["saveS3"], ["screenshot"]],
+    "originalConfig": [
+      {
+        "entry": "handler0",
+        "lambdas": ["blur", "flip"]
+      },
+      {
+        "lambdas": ["screenshot"],
+        "entry": "handler1"
+      },
+      {
+        "lambdas": ["saveS3"],
+        "entry": "handler2"
+      }
+    ],
+    "averageDuration": 3494.2631578947367,
+    "date": {
+      "$date": "2020-11-17T15:59:34.306Z"
     }
-  ],
-  "averageDuration": 3494.2631578947367,
-  "date": {
-    "$date": "2020-11-17T15:59:34.306Z"
-  }
-},{
-  "_id": {
-    "$oid": "5fb3fa6e63ef110008ba5716"
   },
-  "fusionConfig": [
-    [
-      "blur",
-      "flip",
-      "saveS3"
-    ],
-    [
-      "screenshot"
-    ]
-  ],
-  "originalConfig": [
-    {
-      "entry": "handler0",
-      "lambdas": [
-        "blur",
-        "flip",
-        "saveS3"
-      ]
+  {
+    "_id": {
+      "$oid": "5fb3fa6e63ef110008ba5716"
     },
-    {
-      "lambdas": [
-        "screenshot"
-      ],
-      "entry": "handler1"
+    "fusionConfig": [["blur", "flip", "saveS3"], ["screenshot"]],
+    "originalConfig": [
+      {
+        "entry": "handler0",
+        "lambdas": ["blur", "flip", "saveS3"]
+      },
+      {
+        "lambdas": ["screenshot"],
+        "entry": "handler1"
+      }
+    ],
+    "averageDuration": 3416.684210526316,
+    "date": {
+      "$date": "2020-11-17T16:29:34.342Z"
     }
-  ],
-  "averageDuration": 3416.684210526316,
-  "date": {
-    "$date": "2020-11-17T16:29:34.342Z"
-  }
-},{
-  "_id": {
-    "$oid": "5fb40176067a2900081e35cd"
   },
-  "fusionConfig": [
-    [
-      "blur"
-    ],
-    [
-      "flip",
-      "saveS3"
-    ],
-    [
-      "screenshot"
-    ]
-  ],
-  "originalConfig": [
-    {
-      "entry": "handler0",
-      "lambdas": [
-        "flip",
-        "saveS3"
-      ]
+  {
+    "_id": {
+      "$oid": "5fb40176067a2900081e35cd"
     },
-    {
-      "lambdas": [
-        "screenshot"
-      ],
-      "entry": "handler1"
-    },
-    {
-      "lambdas": [
-        "blur"
-      ],
-      "entry": "handler2"
+    "fusionConfig": [["blur"], ["flip", "saveS3"], ["screenshot"]],
+    "originalConfig": [
+      {
+        "entry": "handler0",
+        "lambdas": ["flip", "saveS3"]
+      },
+      {
+        "lambdas": ["screenshot"],
+        "entry": "handler1"
+      },
+      {
+        "lambdas": ["blur"],
+        "entry": "handler2"
+      }
+    ],
+    "averageDuration": 3448.1052631578946,
+    "date": {
+      "$date": "2020-11-17T16:59:34.521Z"
     }
-  ],
-  "averageDuration": 3448.1052631578946,
-  "date": {
-    "$date": "2020-11-17T16:59:34.521Z"
-  }
-},{
-  "_id": {
-    "$oid": "5fb4087ea357e2000887eb6e"
   },
-  "fusionConfig": [
-    [
-      "blur",
-      "flip",
-      "saveS3"
-    ],
-    [
-      "screenshot"
-    ]
-  ],
-  "originalConfig": [
-    {
-      "entry": "handler0",
-      "lambdas": [
-        "blur",
-        "flip",
-        "saveS3"
-      ]
+  {
+    "_id": {
+      "$oid": "5fb4087ea357e2000887eb6e"
     },
-    {
-      "lambdas": [
-        "screenshot"
-      ],
-      "entry": "handler1"
+    "fusionConfig": [["blur", "flip", "saveS3"], ["screenshot"]],
+    "originalConfig": [
+      {
+        "entry": "handler0",
+        "lambdas": ["blur", "flip", "saveS3"]
+      },
+      {
+        "lambdas": ["screenshot"],
+        "entry": "handler1"
+      }
+    ],
+    "averageDuration": 3417.7894736842104,
+    "date": {
+      "$date": "2020-11-17T17:29:34.179Z"
     }
-  ],
-  "averageDuration": 3417.7894736842104,
-  "date": {
-    "$date": "2020-11-17T17:29:34.179Z"
   }
-}]
+]
