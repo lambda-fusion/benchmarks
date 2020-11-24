@@ -8887,44 +8887,4 @@
   "totalDuration": 2587.09,
   "lambdasCount": 1,
   "totalColdStartTime": 0
-},{
-  "_id": {
-    "$oid": "5fb802e055c08400090808d2"
-  },
-  "traceId": "258ad0c8-a473-433d-9085-24b719ef02f9",
-  "starttime": {
-    "$date": "2020-11-20T17:52:20.535Z"
-  },
-  "endtime": {
-    "$date": "2020-11-20T17:52:23.055Z"
-  },
-  "invocationInformation": {
-    "0933d4f5-1287-44cd-b8bb-55cdb37b8cad": {
-      "starttime": 1605894740535,
-      "endtime": 1605894743055,
-      "duration": 2539.43,
-      "billedDuration": 2600,
-      "memorySize": 1024,
-      "memoryUsed": 453,
-      "coldStart": null,
-      "lambdaName": "handler1"
-    },
-    "ebab484f-14fa-44e4-a7e1-69c44a8d2448": {
-      "starttime": 1605894741720,
-      "endtime": 1605894743041,
-      "duration": 1340.83,
-      "billedDuration": 1400,
-      "memorySize": 1024,
-      "memoryUsed": 255,
-      "coldStart": null,
-      "lambdaName": "handler0"
-    }
-  },
-  "runtime": 2520,
-  "totalMemoryUsed": 708,
-  "totalMemoryAllocated": 2048,
-  "totalBilledDuration": 4000,
-  "totalDuration": 3880.26,
-  "lambdasCount": 2,
-  "totalColdStartTime": 0
 }]

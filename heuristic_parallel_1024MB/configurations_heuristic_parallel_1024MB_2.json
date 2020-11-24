@@ -1,0 +1,66 @@
+[
+  {
+    "_id": {
+      "$oid": "5fbc23d977e0150008548872"
+    },
+    "fusionConfig": [["blur"], ["flip"], ["saveS3"], ["screenshot"]],
+    "originalConfig": [
+      {
+        "entry": "handler0",
+        "lambdas": ["screenshot"]
+      },
+      {
+        "entry": "handler1",
+        "lambdas": ["blur"]
+      },
+      {
+        "entry": "handler2",
+        "lambdas": ["flip"]
+      },
+      {
+        "entry": "handler3",
+        "lambdas": ["saveS3"]
+      }
+    ],
+    "averageDuration": 3875,
+    "date": {
+      "$date": "2020-11-23T21:04:25.511Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5fbc2ae14f45980008133296"
+    },
+    "fusionConfig": [["blur", "flip", "screenshot"], ["saveS3"]],
+    "originalConfig": [
+      {
+        "entry": "handler0",
+        "lambdas": ["blur", "flip", "screenshot"]
+      },
+      {
+        "entry": "handler1",
+        "lambdas": ["saveS3"]
+      }
+    ],
+    "averageDuration": 4829.428571428572,
+    "date": {
+      "$date": "2020-11-23T21:34:25.367Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5fbc322036378d00080e06bd"
+    },
+    "fusionConfig": [["blur", "flip", "saveS3", "screenshot"]],
+    "originalConfig": [
+      {
+        "entry": "handler0",
+        "lambdas": ["blur", "flip", "saveS3", "screenshot"]
+      }
+    ],
+    "averageDuration": 4869.7,
+    "date": {
+      "$date": "2020-11-23T22:05:20.751Z"
+    }
+  }
+]

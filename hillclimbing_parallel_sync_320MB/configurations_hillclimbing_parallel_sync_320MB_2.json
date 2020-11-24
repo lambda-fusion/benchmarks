@@ -384,28 +384,5 @@
     "date": {
       "$date": "2020-11-19T07:53:25.567Z"
     }
-  },
-  {
-    "_id": {
-      "$oid": "5fb62b7d0719ba000813f34c"
-    },
-    "fusionConfig": [
-      ["blur", "screenshot"],
-      ["flip", "saveS3"]
-    ],
-    "originalConfig": [
-      {
-        "lambdas": ["flip", "saveS3"],
-        "entry": "handler0"
-      },
-      {
-        "lambdas": ["blur", "screenshot"],
-        "entry": "handler1"
-      }
-    ],
-    "averageDuration": 24903.555555555555,
-    "date": {
-      "$date": "2020-11-19T08:23:25.635Z"
-    }
   }
 ]

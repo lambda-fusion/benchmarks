@@ -11,7 +11,7 @@ d_chain = {'Memory size': ["1024MB", "320MB", "1024MB", "320MB", "1024MB", "320M
 
 d_parallel = {'Memory size': ["1024MB", "320MB", "1024MB", "320MB", "1024MB", "320MB", "1024MB", "320MB"],
      'Type': ["Best case", "Best case", "Hill climbing", "Hill climbing", "Heuristic", "Heuristic", "Worst case", "Worst case"],
-     'runtime': [100, 200, 3382, 9825, 450, 550, 4758, 19936]}
+     'runtime': [3354, 200, 3382, 9825, 4809, 9883, 4962, 19936]}
 
 df_chain = pd.DataFrame(data=d_chain)
 
@@ -33,15 +33,15 @@ fig_parallel['layout'].update(title = "Parallel",
 fig_parallel.update(layout=dict(title=dict(x=0.5)))
 
 # legend
-legend = dict(
-    orientation="h",
-    yanchor="bottom",
-    y=-0.08,
-    xanchor="center",
-    x=0.5
-)
-fig_chain.update_layout(legend=legend)
-fig_parallel.update_layout(legend=legend)
+# legend = dict(
+#     orientation="h",
+#     yanchor="bottom",
+#     y=-0.08,
+#     xanchor="center",
+#     x=0.5
+# )
+# fig_chain.update_layout(legend=legend)
+# fig_parallel.update_layout(legend=legend)
 
 if not os.path.exists("images"):
     os.mkdir("images")
